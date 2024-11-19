@@ -1,7 +1,7 @@
 import "./TitleCreator.css";
 
 import classNames from "classnames";
-import React, { useState } from "react";
+import { useState } from "react";
 import { useMutation, useQuery } from "react-query";
 import { Spinner } from "../../common";
 import { ManualTitleCreator } from "./components";

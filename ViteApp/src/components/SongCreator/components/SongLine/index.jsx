@@ -1,6 +1,6 @@
 import classNames from "classnames";
 import { DateTime } from "luxon";
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 
 /**
  * @param {object} props

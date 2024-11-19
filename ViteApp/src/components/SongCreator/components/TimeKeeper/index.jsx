@@ -2,7 +2,7 @@ import "./TimeKeeper.css";
 
 import classNames from "classnames";
 import { DateTime } from "luxon";
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 /**
  * @param {object} props

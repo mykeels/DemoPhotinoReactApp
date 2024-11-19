@@ -1,4 +1,4 @@
-import React, { useState, useCallback, useEffect } from "react";
+import { useState, useCallback, useEffect } from "react";
 import { continueRender, delayRender } from "remotion";
 import { SongVideo } from "../SongPlayer";
 import { CenterFill } from "../SongPlayer/components";

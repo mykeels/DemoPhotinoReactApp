@@ -1,6 +1,6 @@
 import "./SongCreator.css";
 
-import React, { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { LyricsTabView } from "./components/LyricsTabView";
 import keywordExtractor from "keyword-extractor";
 import { TimeKeeper } from "./components/TimeKeeper";

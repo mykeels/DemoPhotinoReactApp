@@ -1,6 +1,6 @@
 import "./SavedFileUploader.css";
 
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import classNames from "classnames";
 
 /**

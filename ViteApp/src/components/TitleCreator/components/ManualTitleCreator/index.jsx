@@ -1,7 +1,7 @@
 import "../../TitleCreator.css";
 
 import classNames from "classnames";
-import React, { useRef, useState } from "react";
+import { useRef, useState } from "react";
 import { useForm } from "react-hook-form";
 import { Spinner } from "../../../../common";
 

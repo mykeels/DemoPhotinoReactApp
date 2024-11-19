@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { Player } from "@remotion/player";
 
 import { frames } from "../../common/utils";

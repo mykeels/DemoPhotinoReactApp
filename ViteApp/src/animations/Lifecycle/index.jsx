@@ -1,5 +1,5 @@
 import classNames from "classnames/dedupe";
-import React, { useCallback, useState } from "react";
+import { useCallback, useState } from "react";
 import { Sequence, useVideoConfig } from "remotion";
 import { starts } from "../../common/utils";
 import * as transformParser from "transform-parser";
