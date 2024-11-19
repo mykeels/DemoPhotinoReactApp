@@ -1,5 +1,4 @@
 import { Player } from "@remotion/player";
-import React from "react";
 import { AbsoluteFill } from "remotion";
 
 import { ColorTransition } from ".";

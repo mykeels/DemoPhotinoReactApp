@@ -1,4 +1,3 @@
-import React from "react";
 import { CenterFill, HighlightedVerseSubtitles, PhotoSlideshow } from "..";
 import { Audio } from "remotion";
 import { ColorTransitions } from "../../../../animations";

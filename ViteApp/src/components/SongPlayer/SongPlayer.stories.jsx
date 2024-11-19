@@ -1,4 +1,3 @@
-import React from "react";
 
 import { SongPlayer } from "./";
 import sampleSong from "../../common/data/sample-song.json";

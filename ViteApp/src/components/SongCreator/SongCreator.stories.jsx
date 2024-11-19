@@ -1,4 +1,3 @@
-import React from "react";
 
 import { SongCreator } from "./";
 import { LyricsTabView } from "./components/LyricsTabView";

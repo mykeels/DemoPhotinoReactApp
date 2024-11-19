@@ -1,4 +1,3 @@
-import React from "react";
 import { Player } from "@remotion/player";
 import { frames } from "../../common/utils";
 

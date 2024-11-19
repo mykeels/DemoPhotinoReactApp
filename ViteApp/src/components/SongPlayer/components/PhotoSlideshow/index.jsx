@@ -1,4 +1,3 @@
-import React from "react";
 import { Sequence, Img, useVideoConfig } from "remotion";
 
 import { Lifecycle, ZoomIn } from "../../../../animations";

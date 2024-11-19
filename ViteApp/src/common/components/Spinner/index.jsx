@@ -2,7 +2,6 @@ import "./index.css";
 
 import classnames from "classnames/dedupe";
 import PropTypes from "prop-types";
-import React from "react";
 
 /**
  *

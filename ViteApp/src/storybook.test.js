@@ -1,4 +1,3 @@
-import React from "react";
 import initStoryshots, {
   Stories2SnapsConverter
 } from "@storybook/addon-storyshots";

@@ -1,4 +1,3 @@
-import React from "react";
 import { Player } from "@remotion/player";
 
 import { PhotoSlideshow } from "./index";

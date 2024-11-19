@@ -1,6 +1,5 @@
 import "./SongUploader.css";
 
-import React from "react";
 import { YoutubeDownloader } from "./components";
 import { useQuery } from "react-query";
 import classNames from "classnames";

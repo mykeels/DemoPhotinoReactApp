@@ -1,5 +1,4 @@
 import classNames from "classnames/dedupe";
-import React from "react";
 
 /**
  * @typedef {OneOf<"images" | "colors">} BackgroundOption

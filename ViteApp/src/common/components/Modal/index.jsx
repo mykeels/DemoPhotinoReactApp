@@ -3,7 +3,6 @@ import "./index.css";
 
 import classNames from "classnames/dedupe";
 import PropTypes from "prop-types";
-import React from "react";
 
 const constants = {
   RESPONSIVE_SIZES: [

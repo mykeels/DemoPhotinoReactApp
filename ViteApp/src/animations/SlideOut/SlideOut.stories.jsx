@@ -1,4 +1,3 @@
-import React from "react";
 import { AbsoluteFill } from "remotion";
 import { Player } from "@remotion/player";
 

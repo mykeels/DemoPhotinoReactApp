@@ -1,4 +1,3 @@
-import React from "react";
 import { Sequence, AbsoluteFill, useVideoConfig } from "remotion";
 
 import { Lifecycle, Pulse, SlideIn, SlideOut } from "../../../../animations";

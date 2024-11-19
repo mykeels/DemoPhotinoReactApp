@@ -1,5 +1,4 @@
 import classNames from "classnames/dedupe";
-import React from "react";
 
 import { Modal } from "./";
 

@@ -1,6 +1,5 @@
 import "../../index.css";
 
-import React from "react";
 import { Composition, registerRoot } from "remotion";
 import { frames } from "../../common";
 import { SongURLPlayer } from "./SongURLPlayer";
