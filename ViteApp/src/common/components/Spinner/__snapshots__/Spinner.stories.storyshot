@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@mykeels/mee-karaoke common/Spinner Custom Size 1`] = `
+<div
+  className="spinner inline-block"
+  style={
+    Object {
+      "borderColor": "unset",
+      "borderWidth": 3,
+      "height": "5rem",
+      "width": "5rem",
+    }
+  }
+/>
+`;
+
+exports[`@mykeels/mee-karaoke common/Spinner Custom Size And Border 1`] = `
+<div
+  className="spinner inline-block"
+  style={
+    Object {
+      "borderColor": "unset",
+      "borderWidth": "7",
+      "height": "5rem",
+      "width": "5rem",
+    }
+  }
+/>
+`;
+
+exports[`@mykeels/mee-karaoke common/Spinner Custom Size Border And Color 1`] = `
+<div
+  className="spinner inline-block"
+  style={
+    Object {
+      "borderColor": "#0AF",
+      "borderWidth": "7",
+      "height": "5rem",
+      "width": "5rem",
+    }
+  }
+/>
+`;
+
+exports[`@mykeels/mee-karaoke common/Spinner Index 1`] = `
+<div
+  className="spinner inline-block"
+  style={
+    Object {
+      "borderColor": "unset",
+      "borderWidth": 3,
+      "height": "1.5rem",
+      "width": "1.5rem",
+    }
+  }
+/>
+`;
+
+exports[`@mykeels/mee-karaoke common/Spinner Multiple 1`] = `
+Array [
+  <div
+    className="spinner inline-block"
+    style={
+      Object {
+        "borderColor": "unset",
+        "borderWidth": 3,
+        "height": "1.5rem",
+        "width": "1.5rem",
+      }
+    }
+  />,
+  <div
+    className="spinner inline-block"
+    style={
+      Object {
+        "borderColor": "unset",
+        "borderWidth": 3,
+        "height": "1.5rem",
+        "width": "1.5rem",
+      }
+    }
+  />,
+  <div
+    className="spinner inline-block"
+    style={
+      Object {
+        "borderColor": "unset",
+        "borderWidth": 3,
+        "height": "1.5rem",
+        "width": "1.5rem",
+      }
+    }
+  />,
+]
+`;

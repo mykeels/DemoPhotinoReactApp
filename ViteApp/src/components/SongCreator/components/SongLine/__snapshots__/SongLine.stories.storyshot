@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@mykeels/mee-karaoke components/SongCreator/components/SongLine Inactive 1`] = `
+<div
+  className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+>
+  <div
+    className="inline-block w-5/6"
+  >
+    Hello World
+  </div>
+  <div
+    className="inline-block w-1/6"
+  >
+    <div
+      className="block w-full"
+    >
+      <div
+        className="inline-block w-1/2"
+      />
+      <div
+        className="inline-block w-1/2"
+      >
+        00:01
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`@mykeels/mee-karaoke components/SongCreator/components/SongLine Index 1`] = `
+<div
+  className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer bg-lavender-100"
+>
+  <div
+    className="inline-block w-5/6"
+  >
+    Hello World
+  </div>
+  <div
+    className="inline-block w-1/6"
+  >
+    <div
+      className="block w-full"
+    >
+      <div
+        className="inline-block w-1/2"
+      />
+      <div
+        className="inline-block w-1/2"
+      >
+        00:01
+      </div>
+    </div>
+  </div>
+</div>
+`;

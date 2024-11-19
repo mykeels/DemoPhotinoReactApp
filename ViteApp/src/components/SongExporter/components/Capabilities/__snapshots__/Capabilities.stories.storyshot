@@ -1,0 +1,298 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@mykeels/mee-karaoke components/SongExporter/Capabilities Has All 1`] = `
+<div
+  className="block md:flex w-full py-4 text-white"
+>
+  <div
+    className="inline-block w-full px-2 text-sm md:w-1/4"
+  >
+    <div
+      className="block w-full px-4 py-4 bg-purple-200 my-4"
+    >
+      <div
+        className="inline-block w-3/4"
+      >
+        1. Checking NodeJS is installed
+         
+      </div>
+      <div
+        className="inline-block w-1/4 text-right"
+      >
+        ✅
+      </div>
+    </div>
+    <div
+      className="block w-full px-4 py-4 bg-purple-200 my-4"
+    >
+      <div
+        className="inline-block w-3/4"
+      >
+        2. Checking FFMpeg is installed
+         
+      </div>
+      <div
+        className="inline-block w-1/4 text-right"
+      >
+        ✅
+      </div>
+    </div>
+  </div>
+  <div
+    className="inline-block w-full md:w-3/4 px-2"
+  >
+    <div
+      className="block w-full px-8 py-4 bg-purple-200 my-4 h-80v overflow-auto custom-scroller"
+    />
+  </div>
+</div>
+`;
+
+exports[`@mykeels/mee-karaoke components/SongExporter/Capabilities Has Ffmpeg 1`] = `
+<div
+  className="block md:flex w-full py-4 text-white"
+>
+  <div
+    className="inline-block w-full px-2 text-sm md:w-1/4"
+  >
+    <div
+      className="block w-full px-4 py-4 bg-purple-200 my-4"
+    >
+      <div
+        className="inline-block w-3/4"
+      >
+        1. Checking NodeJS is installed
+         
+      </div>
+      <div
+        className="inline-block w-1/4 text-right"
+      >
+        ❌
+      </div>
+    </div>
+    <div
+      className="block w-full px-4 py-4 bg-purple-200 my-4"
+    >
+      <div
+        className="inline-block w-3/4"
+      >
+        2. Checking FFMpeg is installed
+         
+      </div>
+      <div
+        className="inline-block w-1/4 text-right"
+      >
+        ✅
+      </div>
+    </div>
+  </div>
+  <div
+    className="inline-block w-full md:w-3/4 px-2"
+  >
+    <div
+      className="block w-full px-8 py-4 bg-purple-200 my-4 h-80v overflow-auto custom-scroller"
+    >
+      <h2
+        className="underline py-4"
+      >
+        NodeJS is not installed
+      </h2>
+      <p
+        className="py-4"
+      >
+        To export this Karaoke video you need NodeJS installed on your computer.
+      </p>
+      <p
+        className="py-4"
+      >
+        You can
+         
+        <a
+          className="underline text-lavender-100"
+          href="https://nodejs.org/en/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          download and install the LTS version
+        </a>
+        .
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`@mykeels/mee-karaoke components/SongExporter/Capabilities Has Node Js 1`] = `
+<div
+  className="block md:flex w-full py-4 text-white"
+>
+  <div
+    className="inline-block w-full px-2 text-sm md:w-1/4"
+  >
+    <div
+      className="block w-full px-4 py-4 bg-purple-200 my-4"
+    >
+      <div
+        className="inline-block w-3/4"
+      >
+        1. Checking NodeJS is installed
+         
+      </div>
+      <div
+        className="inline-block w-1/4 text-right"
+      >
+        ✅
+      </div>
+    </div>
+    <div
+      className="block w-full px-4 py-4 bg-purple-200 my-4"
+    >
+      <div
+        className="inline-block w-3/4"
+      >
+        2. Checking FFMpeg is installed
+         
+      </div>
+      <div
+        className="inline-block w-1/4 text-right"
+      >
+        ❌
+      </div>
+    </div>
+  </div>
+  <div
+    className="inline-block w-full md:w-3/4 px-2"
+  >
+    <div
+      className="block w-full px-8 py-4 bg-purple-200 my-4 h-80v overflow-auto custom-scroller"
+    >
+      <h2
+        className="underline py-4"
+      >
+        FfMpeg is not installed
+      </h2>
+      <p
+        className="py-4"
+      >
+        To export this Karaoke video you need FfMpeg installed on your computer.
+      </p>
+      <p
+        className="py-4"
+      >
+        You can
+         
+        <a
+          className="underline text-lavender-100"
+          href="https://ffmpeg.org/download.html"
+          rel="noreferrer"
+          target="_blank"
+        >
+          download and install an executable
+        </a>
+         
+        for Ffmpeg.
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`@mykeels/mee-karaoke components/SongExporter/Capabilities No Capabilities 1`] = `
+<div
+  className="block md:flex w-full py-4 text-white"
+>
+  <div
+    className="inline-block w-full px-2 text-sm md:w-1/4"
+  >
+    <div
+      className="block w-full px-4 py-4 bg-purple-200 my-4"
+    >
+      <div
+        className="inline-block w-3/4"
+      >
+        1. Checking NodeJS is installed
+         
+      </div>
+      <div
+        className="inline-block w-1/4 text-right"
+      >
+        ❌
+      </div>
+    </div>
+    <div
+      className="block w-full px-4 py-4 bg-purple-200 my-4"
+    >
+      <div
+        className="inline-block w-3/4"
+      >
+        2. Checking FFMpeg is installed
+         
+      </div>
+      <div
+        className="inline-block w-1/4 text-right"
+      >
+        ❌
+      </div>
+    </div>
+  </div>
+  <div
+    className="inline-block w-full md:w-3/4 px-2"
+  >
+    <div
+      className="block w-full px-8 py-4 bg-purple-200 my-4 h-80v overflow-auto custom-scroller"
+    >
+      <h2
+        className="underline py-4"
+      >
+        NodeJS is not installed
+      </h2>
+      <p
+        className="py-4"
+      >
+        To export this Karaoke video you need NodeJS installed on your computer.
+      </p>
+      <p
+        className="py-4"
+      >
+        You can
+         
+        <a
+          className="underline text-lavender-100"
+          href="https://nodejs.org/en/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          download and install the LTS version
+        </a>
+        .
+      </p>
+      <h2
+        className="underline py-4"
+      >
+        FfMpeg is not installed
+      </h2>
+      <p
+        className="py-4"
+      >
+        To export this Karaoke video you need FfMpeg installed on your computer.
+      </p>
+      <p
+        className="py-4"
+      >
+        You can
+         
+        <a
+          className="underline text-lavender-100"
+          href="https://ffmpeg.org/download.html"
+          rel="noreferrer"
+          target="_blank"
+        >
+          download and install an executable
+        </a>
+         
+        for Ffmpeg.
+      </p>
+    </div>
+  </div>
+</div>
+`;

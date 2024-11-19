@@ -1,0 +1,272 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@mykeels/mee-karaoke components/SongCreator/components/ColorGallery Active Blank 1`] = `
+Array [
+  <div
+    className="inline-block lg:flex bg-pink preview relative w-5/12 lg:w-full"
+  />,
+  <div
+    className="px-2 lg:py-2 inline-block"
+  />,
+  <div
+    className="inline-block lg:block rounded overflow-auto image-slider-wrapper w-7/12 lg:w-full px-4 lg:px-0"
+  >
+    <button
+      className="inline-block px-2 py-1 rouded border hover:border-white shadow text-white  bg-purple-100 absolute right-2 lg:right-6 bottom-0 text-xs hover:bg-purple-200"
+      onClick={[Function]}
+      style={
+        Object {
+          "bottom": 4,
+        }
+      }
+    >
+      Add
+    </button>
+    <div
+      className="block image-slider"
+      style={
+        Object {
+          "width": "0px",
+        }
+      }
+    >
+      <ul
+        className="list-none"
+      />
+    </div>
+  </div>,
+]
+`;
+
+exports[`@mykeels/mee-karaoke components/SongCreator/components/ColorGallery Blank 1`] = `
+Array [
+  <div
+    className="inline-block lg:flex bg-pink preview relative w-5/12 lg:w-full"
+  />,
+  <div
+    className="px-2 lg:py-2 inline-block"
+  />,
+  <div
+    className="inline-block lg:block rounded overflow-auto image-slider-wrapper w-7/12 lg:w-full px-4 lg:px-0"
+  >
+    <button
+      className="inline-block px-2 py-1 rouded border hover:border-white shadow text-white  bg-purple-100 absolute right-2 lg:right-6 bottom-0 text-xs hover:bg-purple-200"
+      onClick={[Function]}
+      style={
+        Object {
+          "bottom": 4,
+        }
+      }
+    >
+      Add
+    </button>
+    <div
+      className="block image-slider"
+      style={
+        Object {
+          "width": "0px",
+        }
+      }
+    >
+      <ul
+        className="list-none"
+      />
+    </div>
+  </div>,
+]
+`;
+
+exports[`@mykeels/mee-karaoke components/SongCreator/components/ColorGallery Index 1`] = `
+Array [
+  <div
+    className="inline-block lg:flex bg-pink preview relative w-5/12 lg:w-full"
+  />,
+  <div
+    className="px-2 lg:py-2 inline-block"
+  />,
+  <div
+    className="inline-block lg:block rounded overflow-auto image-slider-wrapper w-7/12 lg:w-full px-4 lg:px-0"
+  >
+    <button
+      className="inline-block px-2 py-1 rouded border hover:border-white shadow text-white  bg-purple-100 absolute right-2 lg:right-6 bottom-0 text-xs hover:bg-purple-200"
+      onClick={[Function]}
+      style={
+        Object {
+          "bottom": 4,
+        }
+      }
+    >
+      Add
+    </button>
+    <div
+      className="block image-slider"
+      style={
+        Object {
+          "width": "1056px",
+        }
+      }
+    >
+      <ul
+        className="list-none"
+      >
+        <li
+          className="inline-block py-1 px-1"
+        >
+          <div
+            className="relative gallery-image-0"
+          >
+            <button
+              onClick={[Function]}
+            >
+              <div
+                className="shadow rouded border-2 w-16 h-16 lg:w-40 lg:h-24 border-white"
+                style={
+                  Object {
+                    "backgroundColor": "#00aaff",
+                  }
+                }
+              />
+            </button>
+            <button
+              className="w-8 h-8 rounded border text-white absolute right-0 top-0 text-xs hover:bg-purple-200 border-white bg-purple-200"
+              onClick={[Function]}
+            >
+              x
+            </button>
+          </div>
+        </li>
+        <li
+          className="inline-block py-1 px-1"
+        >
+          <div
+            className="relative gallery-image-1"
+          >
+            <button
+              onClick={[Function]}
+            >
+              <div
+                className="shadow rouded border-2 w-16 h-16 lg:w-40 lg:h-24 border-purple-100"
+                style={
+                  Object {
+                    "backgroundColor": "#ffaa00",
+                  }
+                }
+              />
+            </button>
+            <button
+              className="w-8 h-8 rounded border text-white absolute right-0 top-0 text-xs hover:bg-purple-200 border-purple-100 bg-purple-100"
+              onClick={[Function]}
+            >
+              x
+            </button>
+          </div>
+        </li>
+        <li
+          className="inline-block py-1 px-1"
+        >
+          <div
+            className="relative gallery-image-2"
+          >
+            <button
+              onClick={[Function]}
+            >
+              <div
+                className="shadow rouded border-2 w-16 h-16 lg:w-40 lg:h-24 border-purple-100"
+                style={
+                  Object {
+                    "backgroundColor": "#0000ff",
+                  }
+                }
+              />
+            </button>
+            <button
+              className="w-8 h-8 rounded border text-white absolute right-0 top-0 text-xs hover:bg-purple-200 border-purple-100 bg-purple-100"
+              onClick={[Function]}
+            >
+              x
+            </button>
+          </div>
+        </li>
+        <li
+          className="inline-block py-1 px-1"
+        >
+          <div
+            className="relative gallery-image-3"
+          >
+            <button
+              onClick={[Function]}
+            >
+              <div
+                className="shadow rouded border-2 w-16 h-16 lg:w-40 lg:h-24 border-purple-100"
+                style={
+                  Object {
+                    "backgroundColor": "#00ff00",
+                  }
+                }
+              />
+            </button>
+            <button
+              className="w-8 h-8 rounded border text-white absolute right-0 top-0 text-xs hover:bg-purple-200 border-purple-100 bg-purple-100"
+              onClick={[Function]}
+            >
+              x
+            </button>
+          </div>
+        </li>
+        <li
+          className="inline-block py-1 px-1"
+        >
+          <div
+            className="relative gallery-image-4"
+          >
+            <button
+              onClick={[Function]}
+            >
+              <div
+                className="shadow rouded border-2 w-16 h-16 lg:w-40 lg:h-24 border-purple-100"
+                style={
+                  Object {
+                    "backgroundColor": "#ff0000",
+                  }
+                }
+              />
+            </button>
+            <button
+              className="w-8 h-8 rounded border text-white absolute right-0 top-0 text-xs hover:bg-purple-200 border-purple-100 bg-purple-100"
+              onClick={[Function]}
+            >
+              x
+            </button>
+          </div>
+        </li>
+        <li
+          className="inline-block py-1 px-1"
+        >
+          <div
+            className="relative gallery-image-5"
+          >
+            <button
+              onClick={[Function]}
+            >
+              <div
+                className="shadow rouded border-2 w-16 h-16 lg:w-40 lg:h-24 border-purple-100"
+                style={
+                  Object {
+                    "backgroundColor": "#00aaff",
+                  }
+                }
+              />
+            </button>
+            <button
+              className="w-8 h-8 rounded border text-white absolute right-0 top-0 text-xs hover:bg-purple-200 border-purple-100 bg-purple-100"
+              onClick={[Function]}
+            >
+              x
+            </button>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>,
+]
+`;

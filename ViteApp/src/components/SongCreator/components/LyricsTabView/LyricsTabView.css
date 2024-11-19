@@ -1,0 +1,27 @@
+.custom-scroller::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+.custom-scroller::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.custom-scroller::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #521f49;
+}
+
+.h-75vh {
+  height: 75vh;
+}
+
+.tab-content {
+  max-height: 50vh;
+}
+
+@screen lg {
+  .tab-content {
+    max-height: unset;
+  }
+}

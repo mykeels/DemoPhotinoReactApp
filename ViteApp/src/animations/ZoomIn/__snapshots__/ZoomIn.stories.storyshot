@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@mykeels/mee-karaoke animations/ZoomIn Custom Size 1`] = `
+<div>
+  Player
+</div>
+`;
+
+exports[`@mykeels/mee-karaoke animations/ZoomIn Index 1`] = `
+<div>
+  Player
+</div>
+`;

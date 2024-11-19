@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@mykeels/mee-karaoke animations/SlideOut To Bottom 1`] = `
+<div>
+  Player
+</div>
+`;
+
+exports[`@mykeels/mee-karaoke animations/SlideOut To Left 1`] = `
+<div>
+  Player
+</div>
+`;
+
+exports[`@mykeels/mee-karaoke animations/SlideOut To Right 1`] = `
+<div>
+  Player
+</div>
+`;
+
+exports[`@mykeels/mee-karaoke animations/SlideOut To Top 1`] = `
+<div>
+  Player
+</div>
+`;

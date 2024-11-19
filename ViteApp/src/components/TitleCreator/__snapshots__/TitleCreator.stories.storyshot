@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@mykeels/mee-karaoke components/TitleCreator Index 1`] = `
+<div
+  className="block h-screen w-screen title-creator px-16 py-8"
+>
+  <div
+    className="flex w-full h-full items-center justify-center py-4 px-8 bg-purple-200 opacity-75"
+  >
+    <div
+      className="block w-full text-white"
+    >
+      <div
+        className="text-2xl py-8 text-center"
+      >
+        Step 1: What do you want to Sing?
+      </div>
+      <div
+        className="overflow-y-auto custom-scroller h-24vh"
+      >
+        <div
+          className="w-full py-4"
+        >
+          <input
+            className="w-full text-xl px-4 py-2 text-purple-200"
+            onChange={[Function]}
+            placeholder="Enter a Song Title or Author"
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          className="w-full"
+        />
+      </div>
+      <div
+        className="block w-full py-4"
+      >
+        <div
+          className="inline-block w-full py-2 text-right"
+        >
+          <button
+            className="bg-purple-100 px-8 py-4 text-xl inline-block w-full sm:w-auto"
+            onClick={[Function]}
+          >
+            Type Lyrics
+            <span
+              className="hidden md:inline"
+            >
+               Instead
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

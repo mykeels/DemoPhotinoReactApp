@@ -1,0 +1,12 @@
+.song-exporter {
+    background-image: url('https://images.unsplash.com/photo-1598193957011-39b9f2916992?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80');
+    background-size: cover;
+}
+
+.h-80v {
+    height: 80vh;
+}
+
+.min-h-80v {
+    min-height: 80vh;
+}

@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "module": "commonjs",
+    "allowJs": true,
+    "checkJs": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "outDir": "./dist",
+    "lib": ["ES6", "ES2019", "ES2020", "DOM"],
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true
+  },
+  "compileOnSave": false,
+  "include": ["typings/**/*.d.ts", "src/**/*.js", "src/**/*.tsx", "src/components/SongExporter/components/Capabilities/Capabilities.stories.jsx", "src/components/SongExporter/SongExports.jsx", "src/components/SongCreator/SongCreator.jsx", "src/components/SavedFileUploader/index.jsx", "src/App.jsx", "src/main.jsx", "src/components/SongExporter/components/Capabilities/index.jsx"],
+  "exclude": [
+    "node_modules/",
+    "**/*.test.js",
+    "**/*.spec.js",
+    "**/*.stories.js",
+    "dist",
+    "./src/webpack-override.js",
+    "./src/setupTests.js",
+    "./src/reportWebVitals.js"
+  ],
+  "typeRoots": ["./node_modules/@types", "./typings"]
+}

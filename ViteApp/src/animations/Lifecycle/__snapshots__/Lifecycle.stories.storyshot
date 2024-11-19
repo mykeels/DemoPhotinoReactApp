@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@mykeels/mee-karaoke animations/Lifecycle Left To Right 1`] = `
+<div>
+  Player
+</div>
+`;
+
+exports[`@mykeels/mee-karaoke animations/Lifecycle Left To Right With Pulse 1`] = `
+<div>
+  Player
+</div>
+`;
+
+exports[`@mykeels/mee-karaoke animations/Lifecycle No Entrance 1`] = `
+<div>
+  Player
+</div>
+`;
+
+exports[`@mykeels/mee-karaoke animations/Lifecycle No Exit 1`] = `
+<div>
+  Player
+</div>
+`;
+
+exports[`@mykeels/mee-karaoke animations/Lifecycle Top To Bottom 1`] = `
+<div>
+  Player
+</div>
+`;
+
+exports[`@mykeels/mee-karaoke animations/Lifecycle Top To Bottom With Pulse 1`] = `
+<div>
+  Player
+</div>
+`;

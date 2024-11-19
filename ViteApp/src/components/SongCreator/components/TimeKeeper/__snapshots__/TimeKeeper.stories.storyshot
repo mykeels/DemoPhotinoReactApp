@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@mykeels/mee-karaoke components/SongCreator/components/TimeKeeper Index 1`] = `
+<div
+  className="block w-full px-2 py-2"
+>
+  <button
+    className="inline-block text-center text-white px-4 py-2 text-xs rounded shadow mx-2 border-2 border-pink focus:border-white focus:outline-none record hover:bg-purple-200 bg-purple-100"
+    disabled={false}
+    onClick={[Function]}
+  >
+    <span>
+      Record ⏺️
+    </span>
+  </button>
+  <button
+    className="inline-block text-center text-white px-4 py-2 text-xs rounded shadow mx-2 border-2 border-pink focus:border-white focus:outline-none play hover:bg-purple-200 bg-purple-100"
+    onClick={[Function]}
+  >
+    <span>
+      Play
+    </span>
+  </button>
+  <span
+    className="inline-block float-right text-purple-200 text-lg font-bold px-4"
+  >
+    00:00:000
+  </span>
+</div>
+`;

@@ -1,0 +1,406 @@
+{
+    "audioUrl": "./sounds/something-just-like-this.mp3",
+    "lines": [
+        {
+            "text": "",
+            "duration": 7.75,
+            "from": 0
+        },
+        {
+            "text": "I've been reading books of old",
+            "duration": 2.5,
+            "from": 7.75
+        },
+        {
+            "text": "The legends and the myths",
+            "duration": 2.5,
+            "from": 10.25
+        },
+        {
+            "text": "Achilles and his gold",
+            "duration": 2.25,
+            "from": 12.75
+        },
+        {
+            "text": "Hercules and his gifts",
+            "duration": 2.5,
+            "from": 15
+        },
+        {
+            "text": "Spiderman's control",
+            "duration": 2.25,
+            "from": 17.5
+        },
+        {
+            "text": "And Batman with his fists",
+            "duration": 3,
+            "from": 19.75
+        },
+        {
+            "text": "And clearly I don't see myself upon that list",
+            "duration": 3.5,
+            "from": 22.75
+        },
+        {
+            "text": "But she said, where d'you wanna go?",
+            "duration": 2.5,
+            "from": 26.25
+        },
+        {
+            "text": "How much you wanna risk?",
+            "duration": 2.25,
+            "from": 28.75
+        },
+        {
+            "text": "I'm not looking for somebody",
+            "duration": 2.25,
+            "from": 31
+        },
+        {
+            "text": "With some superhuman gifts",
+            "duration": 2.5,
+            "from": 33.25
+        },
+        {
+            "text": "Some superhero",
+            "duration": 2.5,
+            "from": 35.75
+        },
+        {
+            "text": "Some fairytale bliss",
+            "duration": 2.25,
+            "from": 38.25
+        },
+        {
+            "text": "Just something I can turn to",
+            "duration": 2.5,
+            "from": 40.5
+        },
+        {
+            "text": "Somebody I can kiss",
+            "duration": 2,
+            "from": 43
+        },
+        {
+            "text": "I want something just like this",
+            "duration": 2.75,
+            "from": 45
+        },
+        {
+            "text": "Doo-doo-doo, doo-doo-doo",
+            "duration": 2,
+            "from": 47.75
+        },
+        {
+            "text": "Doo-doo-doo, doo-doo",
+            "duration": 2.75,
+            "from": 49.75
+        },
+        {
+            "text": "Doo-doo-doo, doo-doo-doo",
+            "duration": 2,
+            "from": 52.5
+        },
+        {
+            "text": "Oh, I want something just like this",
+            "duration": 2.5,
+            "from": 54.5
+        },
+        {
+            "text": "Doo-doo-doo, doo-doo-doo",
+            "duration": 2.25,
+            "from": 57
+        },
+        {
+            "text": "Doo-doo-doo, doo-doo",
+            "duration": 2.5,
+            "from": 59.25
+        },
+        {
+            "text": "Doo-doo-doo, doo-doo-doo",
+            "duration": 2,
+            "from": 61.75
+        },
+        {
+            "text": "Oh, I want something just like this",
+            "duration": 8.75,
+            "from": 63.75
+        },
+        {
+            "text": "",
+            "duration": 0.75,
+            "from": 72.5
+        },
+        {
+            "text": "I want something just like this",
+            "duration": 9,
+            "from": 73.25
+        },
+        {
+            "text": "",
+            "duration": 0.75,
+            "from": 82.25
+        },
+        {
+            "text": "I've been reading books of old",
+            "duration": 2,
+            "from": 83
+        },
+        {
+            "text": "The legends and the myths",
+            "duration": 2.25,
+            "from": 85
+        },
+        {
+            "text": "The testaments they told",
+            "duration": 2.25,
+            "from": 87.25
+        },
+        {
+            "text": "The moon and its eclipse",
+            "duration": 2.5,
+            "from": 89.5
+        },
+        {
+            "text": "And Superman unrolls",
+            "duration": 2.5,
+            "from": 92
+        },
+        {
+            "text": "A suit before he lifts",
+            "duration": 2.75,
+            "from": 94.5
+        },
+        {
+            "text": "But I'm not the kind of person that it fits",
+            "duration": 3.5,
+            "from": 97.25
+        },
+        {
+            "text": "",
+            "duration": 0.5,
+            "from": 100.75
+        },
+        {
+            "text": "She said, where d'you wanna go?",
+            "duration": 2.25,
+            "from": 101.25
+        },
+        {
+            "text": "How much you wanna risk?",
+            "duration": 2.5,
+            "from": 103.5
+        },
+        {
+            "text": "I'm not looking for somebody",
+            "duration": 2.5,
+            "from": 106
+        },
+        {
+            "text": "With some superhuman gifts",
+            "duration": 2.25,
+            "from": 108.5
+        },
+        {
+            "text": "Some superhero",
+            "duration": 2,
+            "from": 110.75
+        },
+        {
+            "text": "Some fairytale bliss",
+            "duration": 2.75,
+            "from": 112.75
+        },
+        {
+            "text": "Just something I can turn to",
+            "duration": 2.25,
+            "from": 115.5
+        },
+        {
+            "text": "Somebody I can miss",
+            "duration": 2,
+            "from": 117.75
+        },
+        {
+            "text": "",
+            "duration": 0.25,
+            "from": 119.75
+        },
+        {
+            "text": "I want something just like this",
+            "duration": 9,
+            "from": 120
+        },
+        {
+            "text": "",
+            "duration": 0.5,
+            "from": 129
+        },
+        {
+            "text": "Oh, I want something just like this",
+            "duration": 8.000000000000014,
+            "from": 129.5
+        },
+        {
+            "text": "",
+            "duration": 0.75,
+            "from": 137.5
+        },
+        {
+            "text": "Oh, I want something just like this",
+            "duration": 2.75,
+            "from": 138.25
+        },
+        {
+            "text": "Doo-doo-doo, doo-doo-doo",
+            "duration": 2.5,
+            "from": 141
+        },
+        {
+            "text": "Doo-doo-doo, doo-doo",
+            "duration": 2.25,
+            "from": 143.5
+        },
+        {
+            "text": "Doo-doo-doo, doo-doo-doo",
+            "duration": 2,
+            "from": 145.75
+        },
+        {
+            "text": "Oh, I want something just like this",
+            "duration": 2.5,
+            "from": 147.75
+        },
+        {
+            "text": "Doo-doo-doo, doo-doo-doo",
+            "duration": 2.25,
+            "from": 150.25
+        },
+        {
+            "text": "Doo-doo-doo, doo-doo",
+            "duration": 2.25,
+            "from": 152.5
+        },
+        {
+            "text": "Doo-doo-doo, doo-doo-doo",
+            "duration": 2.25,
+            "from": 154.75
+        },
+        {
+            "text": "",
+            "duration": 0.25,
+            "from": 157
+        },
+        {
+            "text": "Where d'you wanna go?",
+            "duration": 2.5,
+            "from": 157.25
+        },
+        {
+            "text": "How much you wanna risk?",
+            "duration": 2,
+            "from": 159.75
+        },
+        {
+            "text": "I'm not looking for somebody",
+            "duration": 2.75,
+            "from": 161.75
+        },
+        {
+            "text": "With some superhuman gifts",
+            "duration": 2,
+            "from": 164.5
+        },
+        {
+            "text": "Some superhero",
+            "duration": 2.25,
+            "from": 166.5
+        },
+        {
+            "text": "Some fairytale bliss",
+            "duration": 2.25,
+            "from": 168.75
+        },
+        {
+            "text": "Just something I can turn to",
+            "duration": 2.25,
+            "from": 171
+        },
+        {
+            "text": "Somebody I can kiss",
+            "duration": 2.25,
+            "from": 173.25
+        },
+        {
+            "text": "So I want something just like this",
+            "duration": 2.5,
+            "from": 175.5
+        },
+        {
+            "text": "Doo-doo-doo, doo-doo-doo",
+            "duration": 2.25,
+            "from": 178
+        },
+        {
+            "text": "Doo-doo-doo, doo-doo",
+            "duration": 2.75,
+            "from": 180.25
+        },
+        {
+            "text": "Doo-doo-doo, doo-doo-doo",
+            "duration": 2,
+            "from": 183
+        },
+        {
+            "text": "Oh, I want something just like this",
+            "duration": 2.75,
+            "from": 185
+        },
+        {
+            "text": "Doo-doo-doo, doo-doo-doo",
+            "duration": 2.25,
+            "from": 187.75
+        },
+        {
+            "text": "Doo-doo-doo, doo-doo",
+            "duration": 2.5,
+            "from": 190
+        },
+        {
+            "text": "Doo-doo-doo, doo-doo-doo",
+            "duration": 1.75,
+            "from": 192.5
+        },
+        {
+            "text": "Oh, I want something just like this",
+            "duration": 18.5,
+            "from": 194.25
+        },
+        {
+            "text": "",
+            "duration": 28.75,
+            "from": 212.75
+        }
+    ],
+    "background": {
+        "type": "images",
+        "images": [
+            "https://images.unsplash.com/photo-1608659597669-b45511779f93?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=720&ixid=MnwxfDB8MXxyYW5kb218MHx8cmVhZGluZyBib29rcyBteXRocyBhY2hpbGxlc3x8fHx8fDE2NjUzMzY1NDg&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1280",
+            "https://images.unsplash.com/photo-1582560474992-385ebb9b29a4?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=720&ixid=MnwxfDB8MXxyYW5kb218MHx8ZCd5b3Ugd2FubmEgZ28gd2FubmEgcmlzayBzcGlkZXJtYW4ncyBjb250cm9sfHx8fHx8MTY2NTMzNjU0OA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1280",
+            "https://images.unsplash.com/photo-1511895307821-692dc4ad27c5?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=720&ixid=MnwxfDB8MXxyYW5kb218MHx8c3VwZXJodW1hbiBnaWZ0cyBmYWlyeXRhbGUgYmxpc3N8fHx8fHwxNjY1MzM2NTQ4&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1280",
+            "https://images.unsplash.com/photo-1651609948145-2750a57f3433?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=720&ixid=MnwxfDB8MXxyYW5kb218MHx8ZG9vIGRvbyBkb298fHx8fHwxNjY1MzM2NTQ4&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1280",
+            "https://images.unsplash.com/photo-1651613432638-fa96887ce033?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=720&ixid=MnwxfDB8MXxyYW5kb218MHx8ZG9vIGRvbyBkb298fHx8fHwxNjY1MzM2NTQ4&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1280",
+            "https://images.unsplash.com/photo-1565843248736-8c41e6db117b?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=720&ixid=MnwxfDB8MXxyYW5kb218MHx8cmVhZGluZyBib29rc3x8fHx8fDE2NjUzMzY1NDg&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1280",
+            "https://images.unsplash.com/photo-1493988577905-2fa4018652be?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=720&ixid=MnwxfDB8MXxyYW5kb218MHx8c3VwZXJtYW4gdW5yb2xscyB0b2xkIHRlc3RhbWVudHN8fHx8fHwxNjY1MzM2NTQ4&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1280",
+            "https://images.unsplash.com/photo-1566825106709-f28d3417b15f?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=720&ixid=MnwxfDB8MXxyYW5kb218MHx8ZCd5b3Ugd2FubmEgZ298fHx8fHwxNjY1MzM2NTQ4&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1280",
+            "https://images.unsplash.com/photo-1505159940484-eb2b9f2588e2?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=720&ixid=MnwxfDB8MXxyYW5kb218MHx8ZmFpcnl0YWxlIGJsaXNzfHx8fHx8MTY2NTMzNjU0OA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1280",
+            "https://images.unsplash.com/photo-1581711190374-2f5dab086636?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=720&ixid=MnwxfDB8MXxyYW5kb218MHx8b2h8fHx8fHwxNjY1MzM2NTQ4&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1280",
+            "https://images.unsplash.com/photo-1651609948145-2750a57f3433?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=720&ixid=MnwxfDB8MXxyYW5kb218MHx8ZG9vIGRvbyBkb298fHx8fHwxNjY1MzM2NTQ4&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1280",
+            "https://images.unsplash.com/photo-1616988760321-919bcedc76aa?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=720&ixid=MnwxfDB8MXxyYW5kb218MHx8ZG9vIGRvbyBkb28gZCd5b3Ugd2FubmEgZ298fHx8fHwxNjY1MzM2NTQ4&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1280",
+            "https://images.unsplash.com/photo-1511895307821-692dc4ad27c5?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=720&ixid=MnwxfDB8MXxyYW5kb218MHx8c3VwZXJodW1hbiBnaWZ0cyBmYWlyeXRhbGUgYmxpc3N8fHx8fHwxNjY1MzM2NTQ4&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1280",
+            "https://images.unsplash.com/photo-1651609948145-2750a57f3433?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=720&ixid=MnwxfDB8MXxyYW5kb218MHx8ZG9vIGRvbyBkb298fHx8fHwxNjY1MzM2NTQ4&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1280",
+            "https://images.unsplash.com/photo-1651609948145-2750a57f3433?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=720&ixid=MnwxfDB8MXxyYW5kb218MHx8ZG9vIGRvbyBkb298fHx8fHwxNjY1MzM2NTQ4&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1280"
+        ]
+    },
+    "duration": 241.5
+}

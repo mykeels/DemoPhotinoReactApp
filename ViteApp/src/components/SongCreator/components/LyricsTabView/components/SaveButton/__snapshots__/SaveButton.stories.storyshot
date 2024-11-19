@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@mykeels/mee-karaoke components/SongCreator/components/LyricsTabView/components/SaveButton Index 1`] = `
+<div
+  className="relative"
+>
+  <audio
+    src="save.mp3"
+  />
+  <button
+    className="w-full block text-xs leading-tight uppercase px-2 py-2 hover:bg-purple-100 hover:text-white"
+    onClick={[Function]}
+    role="tab"
+  >
+    💾
+  </button>
+</div>
+`;

@@ -1,0 +1,7 @@
+button.record:hover, button.stop:hover, button.play:hover {
+    transform: scale(1.1);
+}
+
+button.record:active {
+    transform: translateY(2px);
+}

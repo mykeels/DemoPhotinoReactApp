@@ -1,0 +1,5221 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@mykeels/mee-karaoke components/SongCreator No Durations 1`] = `
+<div
+  className="block h-screen w-screen px-4 lg:px-16 py-8 song-creator overflow-y-auto custom-scroller"
+>
+  <div
+    className="block w-full text-right"
+  />
+  <div
+    className="block lg:flex w-full"
+  >
+    <div
+      className="inline-block w-full lg:w-5/12"
+    >
+      <div
+        className="lg:px-4 sticky top-0"
+      >
+        <div
+          className="block w-full bg-pink rounded border-2 border-purple-100"
+        >
+          <div
+            className="block w-full px-2 py-2"
+          >
+            <button
+              className="inline-block text-center text-white px-4 py-2 text-xs rounded shadow mx-2 border-2 border-pink focus:border-white focus:outline-none record hover:bg-purple-200 bg-purple-100"
+              disabled={false}
+              onClick={[Function]}
+            >
+              <span>
+                Record ⏺️
+              </span>
+            </button>
+            <button
+              className="inline-block text-center text-white px-4 py-2 text-xs rounded shadow mx-2 border-2 border-pink focus:border-white focus:outline-none play hover:bg-purple-200 bg-purple-100"
+              onClick={[Function]}
+            >
+              <span>
+                Play
+              </span>
+            </button>
+            <span
+              className="inline-block float-right text-purple-200 text-lg font-bold px-4"
+            >
+              00:00:000
+            </span>
+          </div>
+        </div>
+        <div
+          className="block py-2"
+        />
+        <div
+          className="flex lg:block w-full bg-pink border-2 border-purple-100 p-2 justify-center items-center"
+        >
+          <div
+            className="flex lg:block lg:w-full"
+          >
+            <select
+              className="hidden lg:block w-full font-bold focus:outline-none bg-purple-200 text-white p-2"
+              onChange={[Function]}
+              value="images"
+            >
+              <option
+                className="font-bold bg-purple-200"
+                value="images"
+              >
+                Photo Gallery
+              </option>
+              <option
+                className="bg-purple-100"
+                value="colors"
+              >
+                Solid Color(s)
+              </option>
+            </select>
+            <div
+              className="block lg:hidden w-full text-center"
+            >
+              <button
+                className="inline-block p-2 rounded my-1 hover:bg-purple-200 border-2 shadow border-white bg-purple-200"
+                onClick={[Function]}
+                title="Photo Gallery"
+              >
+                📸
+              </button>
+              <button
+                className="inline-block p-2 rounded my-1 hover:bg-purple-200 border-2 shadow border-purple-100 bg-purple-100 hover:border-white"
+                onClick={[Function]}
+                title="Solid Color(s)"
+              >
+                🏳️‍🌈
+              </button>
+            </div>
+          </div>
+          <audio
+            src="./sounds/something-just-like-this.mp3"
+          />
+          <div
+            className="inline-block lg:flex bg-pink preview relative w-5/12 lg:w-full"
+          >
+            <div>
+              <div
+                className="items-center justify-center z-20"
+                style={
+                  Object {
+                    "bottom": 0,
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "height": "100%",
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "width": "100%",
+                  }
+                }
+              >
+                <div
+                  className="h-24 relative w-full text-center flex items-center justify-center"
+                >
+                  <div
+                    className="h-24 w-full z-0 opacity-75 rounded absolute top-0 left-0"
+                  />
+                  <div
+                    className="z-10 relative font-bold p-4"
+                  >
+                    <div
+                      className="block"
+                    >
+                      <span
+                        className="inline-block p-2 px-4 rounded my-1 text-lg text-purple-100"
+                      >
+                        I've been reading books of old
+                      </span>
+                    </div>
+                    <div
+                      className="block"
+                    >
+                      <span
+                        className="inline-block p-2 px-4 rounded my-1 text-lg text-purple-100"
+                      >
+                        The legends and the myths
+                      </span>
+                    </div>
+                    <div
+                      className="block"
+                    >
+                      <span
+                        className="inline-block p-2 px-4 rounded my-1 text-lg text-purple-100"
+                      >
+                        Achilles and his gold
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="px-2 lg:py-2 inline-block"
+          />
+          <div
+            className="inline-block lg:block rounded overflow-auto image-slider-wrapper w-7/12 lg:w-full px-4 lg:px-0"
+          >
+            <button
+              className="inline-block px-2 py-1 rouded border hover:border-white shadow text-white  bg-purple-100 absolute right-2 lg:right-6 bottom-0 text-xs hover:bg-purple-200"
+              onClick={[Function]}
+              style={
+                Object {
+                  "bottom": 4,
+                }
+              }
+            >
+              Add
+            </button>
+            <div
+              className="block image-slider"
+              style={
+                Object {
+                  "width": "2640px",
+                }
+              }
+            >
+              <ul
+                className="list-none"
+              >
+                <li
+                  className="inline-block py-1 px-1"
+                >
+                  <div
+                    className="relative gallery-image-0"
+                  >
+                    <button
+                      onClick={[Function]}
+                    >
+                      <img
+                        className="shadow rouded border-2 border-white"
+                        src="https://images.unsplash.com/photo-1608659597669-b45511779f93?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=720&ixid=MnwxfDB8MXxyYW5kb218MHx8cmVhZGluZyBib29rcyBteXRocyBhY2hpbGxlc3x8fHx8fDE2NjUzMzY1NDg&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1280"
+                      />
+                    </button>
+                    <button
+                      className="w-8 h-8 rounded border text-white absolute right-0 top-0 text-xs hover:bg-purple-200 border-white bg-purple-200"
+                      onClick={[Function]}
+                    >
+                      x
+                    </button>
+                  </div>
+                </li>
+                <li
+                  className="inline-block py-1 px-1"
+                >
+                  <div
+                    className="relative gallery-image-1"
+                  >
+                    <button
+                      onClick={[Function]}
+                    >
+                      <img
+                        className="shadow rouded border-2 border-purple-100"
+                        src="https://images.unsplash.com/photo-1582560474992-385ebb9b29a4?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=720&ixid=MnwxfDB8MXxyYW5kb218MHx8ZCd5b3Ugd2FubmEgZ28gd2FubmEgcmlzayBzcGlkZXJtYW4ncyBjb250cm9sfHx8fHx8MTY2NTMzNjU0OA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1280"
+                      />
+                    </button>
+                    <button
+                      className="w-8 h-8 rounded border text-white absolute right-0 top-0 text-xs hover:bg-purple-200 border-purple-100 bg-purple-100"
+                      onClick={[Function]}
+                    >
+                      x
+                    </button>
+                  </div>
+                </li>
+                <li
+                  className="inline-block py-1 px-1"
+                >
+                  <div
+                    className="relative gallery-image-2"
+                  >
+                    <button
+                      onClick={[Function]}
+                    >
+                      <img
+                        className="shadow rouded border-2 border-purple-100"
+                        src="https://images.unsplash.com/photo-1511895307821-692dc4ad27c5?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=720&ixid=MnwxfDB8MXxyYW5kb218MHx8c3VwZXJodW1hbiBnaWZ0cyBmYWlyeXRhbGUgYmxpc3N8fHx8fHwxNjY1MzM2NTQ4&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1280"
+                      />
+                    </button>
+                    <button
+                      className="w-8 h-8 rounded border text-white absolute right-0 top-0 text-xs hover:bg-purple-200 border-purple-100 bg-purple-100"
+                      onClick={[Function]}
+                    >
+                      x
+                    </button>
+                  </div>
+                </li>
+                <li
+                  className="inline-block py-1 px-1"
+                >
+                  <div
+                    className="relative gallery-image-3"
+                  >
+                    <button
+                      onClick={[Function]}
+                    >
+                      <img
+                        className="shadow rouded border-2 border-purple-100"
+                        src="https://images.unsplash.com/photo-1651609948145-2750a57f3433?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=720&ixid=MnwxfDB8MXxyYW5kb218MHx8ZG9vIGRvbyBkb298fHx8fHwxNjY1MzM2NTQ4&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1280"
+                      />
+                    </button>
+                    <button
+                      className="w-8 h-8 rounded border text-white absolute right-0 top-0 text-xs hover:bg-purple-200 border-purple-100 bg-purple-100"
+                      onClick={[Function]}
+                    >
+                      x
+                    </button>
+                  </div>
+                </li>
+                <li
+                  className="inline-block py-1 px-1"
+                >
+                  <div
+                    className="relative gallery-image-4"
+                  >
+                    <button
+                      onClick={[Function]}
+                    >
+                      <img
+                        className="shadow rouded border-2 border-purple-100"
+                        src="https://images.unsplash.com/photo-1651613432638-fa96887ce033?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=720&ixid=MnwxfDB8MXxyYW5kb218MHx8ZG9vIGRvbyBkb298fHx8fHwxNjY1MzM2NTQ4&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1280"
+                      />
+                    </button>
+                    <button
+                      className="w-8 h-8 rounded border text-white absolute right-0 top-0 text-xs hover:bg-purple-200 border-purple-100 bg-purple-100"
+                      onClick={[Function]}
+                    >
+                      x
+                    </button>
+                  </div>
+                </li>
+                <li
+                  className="inline-block py-1 px-1"
+                >
+                  <div
+                    className="relative gallery-image-5"
+                  >
+                    <button
+                      onClick={[Function]}
+                    >
+                      <img
+                        className="shadow rouded border-2 border-purple-100"
+                        src="https://images.unsplash.com/photo-1565843248736-8c41e6db117b?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=720&ixid=MnwxfDB8MXxyYW5kb218MHx8cmVhZGluZyBib29rc3x8fHx8fDE2NjUzMzY1NDg&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1280"
+                      />
+                    </button>
+                    <button
+                      className="w-8 h-8 rounded border text-white absolute right-0 top-0 text-xs hover:bg-purple-200 border-purple-100 bg-purple-100"
+                      onClick={[Function]}
+                    >
+                      x
+                    </button>
+                  </div>
+                </li>
+                <li
+                  className="inline-block py-1 px-1"
+                >
+                  <div
+                    className="relative gallery-image-6"
+                  >
+                    <button
+                      onClick={[Function]}
+                    >
+                      <img
+                        className="shadow rouded border-2 border-purple-100"
+                        src="https://images.unsplash.com/photo-1493988577905-2fa4018652be?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=720&ixid=MnwxfDB8MXxyYW5kb218MHx8c3VwZXJtYW4gdW5yb2xscyB0b2xkIHRlc3RhbWVudHN8fHx8fHwxNjY1MzM2NTQ4&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1280"
+                      />
+                    </button>
+                    <button
+                      className="w-8 h-8 rounded border text-white absolute right-0 top-0 text-xs hover:bg-purple-200 border-purple-100 bg-purple-100"
+                      onClick={[Function]}
+                    >
+                      x
+                    </button>
+                  </div>
+                </li>
+                <li
+                  className="inline-block py-1 px-1"
+                >
+                  <div
+                    className="relative gallery-image-7"
+                  >
+                    <button
+                      onClick={[Function]}
+                    >
+                      <img
+                        className="shadow rouded border-2 border-purple-100"
+                        src="https://images.unsplash.com/photo-1566825106709-f28d3417b15f?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=720&ixid=MnwxfDB8MXxyYW5kb218MHx8ZCd5b3Ugd2FubmEgZ298fHx8fHwxNjY1MzM2NTQ4&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1280"
+                      />
+                    </button>
+                    <button
+                      className="w-8 h-8 rounded border text-white absolute right-0 top-0 text-xs hover:bg-purple-200 border-purple-100 bg-purple-100"
+                      onClick={[Function]}
+                    >
+                      x
+                    </button>
+                  </div>
+                </li>
+                <li
+                  className="inline-block py-1 px-1"
+                >
+                  <div
+                    className="relative gallery-image-8"
+                  >
+                    <button
+                      onClick={[Function]}
+                    >
+                      <img
+                        className="shadow rouded border-2 border-purple-100"
+                        src="https://images.unsplash.com/photo-1505159940484-eb2b9f2588e2?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=720&ixid=MnwxfDB8MXxyYW5kb218MHx8ZmFpcnl0YWxlIGJsaXNzfHx8fHx8MTY2NTMzNjU0OA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1280"
+                      />
+                    </button>
+                    <button
+                      className="w-8 h-8 rounded border text-white absolute right-0 top-0 text-xs hover:bg-purple-200 border-purple-100 bg-purple-100"
+                      onClick={[Function]}
+                    >
+                      x
+                    </button>
+                  </div>
+                </li>
+                <li
+                  className="inline-block py-1 px-1"
+                >
+                  <div
+                    className="relative gallery-image-9"
+                  >
+                    <button
+                      onClick={[Function]}
+                    >
+                      <img
+                        className="shadow rouded border-2 border-purple-100"
+                        src="https://images.unsplash.com/photo-1581711190374-2f5dab086636?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=720&ixid=MnwxfDB8MXxyYW5kb218MHx8b2h8fHx8fHwxNjY1MzM2NTQ4&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1280"
+                      />
+                    </button>
+                    <button
+                      className="w-8 h-8 rounded border text-white absolute right-0 top-0 text-xs hover:bg-purple-200 border-purple-100 bg-purple-100"
+                      onClick={[Function]}
+                    >
+                      x
+                    </button>
+                  </div>
+                </li>
+                <li
+                  className="inline-block py-1 px-1"
+                >
+                  <div
+                    className="relative gallery-image-10"
+                  >
+                    <button
+                      onClick={[Function]}
+                    >
+                      <img
+                        className="shadow rouded border-2 border-purple-100"
+                        src="https://images.unsplash.com/photo-1651609948145-2750a57f3433?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=720&ixid=MnwxfDB8MXxyYW5kb218MHx8ZG9vIGRvbyBkb298fHx8fHwxNjY1MzM2NTQ4&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1280"
+                      />
+                    </button>
+                    <button
+                      className="w-8 h-8 rounded border text-white absolute right-0 top-0 text-xs hover:bg-purple-200 border-purple-100 bg-purple-100"
+                      onClick={[Function]}
+                    >
+                      x
+                    </button>
+                  </div>
+                </li>
+                <li
+                  className="inline-block py-1 px-1"
+                >
+                  <div
+                    className="relative gallery-image-11"
+                  >
+                    <button
+                      onClick={[Function]}
+                    >
+                      <img
+                        className="shadow rouded border-2 border-purple-100"
+                        src="https://images.unsplash.com/photo-1616988760321-919bcedc76aa?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=720&ixid=MnwxfDB8MXxyYW5kb218MHx8ZG9vIGRvbyBkb28gZCd5b3Ugd2FubmEgZ298fHx8fHwxNjY1MzM2NTQ4&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1280"
+                      />
+                    </button>
+                    <button
+                      className="w-8 h-8 rounded border text-white absolute right-0 top-0 text-xs hover:bg-purple-200 border-purple-100 bg-purple-100"
+                      onClick={[Function]}
+                    >
+                      x
+                    </button>
+                  </div>
+                </li>
+                <li
+                  className="inline-block py-1 px-1"
+                >
+                  <div
+                    className="relative gallery-image-12"
+                  >
+                    <button
+                      onClick={[Function]}
+                    >
+                      <img
+                        className="shadow rouded border-2 border-purple-100"
+                        src="https://images.unsplash.com/photo-1511895307821-692dc4ad27c5?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=720&ixid=MnwxfDB8MXxyYW5kb218MHx8c3VwZXJodW1hbiBnaWZ0cyBmYWlyeXRhbGUgYmxpc3N8fHx8fHwxNjY1MzM2NTQ4&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1280"
+                      />
+                    </button>
+                    <button
+                      className="w-8 h-8 rounded border text-white absolute right-0 top-0 text-xs hover:bg-purple-200 border-purple-100 bg-purple-100"
+                      onClick={[Function]}
+                    >
+                      x
+                    </button>
+                  </div>
+                </li>
+                <li
+                  className="inline-block py-1 px-1"
+                >
+                  <div
+                    className="relative gallery-image-13"
+                  >
+                    <button
+                      onClick={[Function]}
+                    >
+                      <img
+                        className="shadow rouded border-2 border-purple-100"
+                        src="https://images.unsplash.com/photo-1651609948145-2750a57f3433?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=720&ixid=MnwxfDB8MXxyYW5kb218MHx8ZG9vIGRvbyBkb298fHx8fHwxNjY1MzM2NTQ4&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1280"
+                      />
+                    </button>
+                    <button
+                      className="w-8 h-8 rounded border text-white absolute right-0 top-0 text-xs hover:bg-purple-200 border-purple-100 bg-purple-100"
+                      onClick={[Function]}
+                    >
+                      x
+                    </button>
+                  </div>
+                </li>
+                <li
+                  className="inline-block py-1 px-1"
+                >
+                  <div
+                    className="relative gallery-image-14"
+                  >
+                    <button
+                      onClick={[Function]}
+                    >
+                      <img
+                        className="shadow rouded border-2 border-purple-100"
+                        src="https://images.unsplash.com/photo-1651609948145-2750a57f3433?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=720&ixid=MnwxfDB8MXxyYW5kb218MHx8ZG9vIGRvbyBkb298fHx8fHwxNjY1MzM2NTQ4&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1280"
+                      />
+                    </button>
+                    <button
+                      className="w-8 h-8 rounded border text-white absolute right-0 top-0 text-xs hover:bg-purple-200 border-purple-100 bg-purple-100"
+                      onClick={[Function]}
+                    >
+                      x
+                    </button>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="py-2 block lg:hidden"
+    />
+    <div
+      className="inline-block w-full lg:w-7/12 p-4 bg-pink rounded border-2 border-purple-100"
+    >
+      <div
+        className="w-full"
+      >
+        <div
+          className="w-full flex"
+        >
+          <div
+            className="hidden sm:inline-block w-5/12 font-bold justify-left"
+            role="presentation"
+          >
+            Something just like this
+          </div>
+          <ul
+            className="nav nav-tabs w-full flex flex-row list-none border-b-0 pl-0 justify-end sm:w-7/12"
+            role="tablist"
+          >
+            <li
+              className="nav-item"
+              role="presentation"
+            >
+              <a
+                className="w-full block text-xs leading-tight uppercase px-2 py-2 hover:bg-purple-100 hover:text-white"
+                href="/exports"
+                onClick={[Function]}
+                role="tab"
+              >
+                <svg
+                  id="Capa_1"
+                  style={
+                    Object {
+                      "height": "16px",
+                      "width": "16px",
+                    }
+                  }
+                  version="1.1"
+                  viewBox="0 0 490 490"
+                  x="0px"
+                  xmlSpace="preserve"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlnsXlink="http://www.w3.org/1999/xlink"
+                  y="0px"
+                >
+                  <g>
+                    <g>
+                      <path
+                        d="M245,0c-9.5,0-17.2,7.7-17.2,17.2v331.2L169,289.6c-6.7-6.7-17.6-6.7-24.3,0s-6.7,17.6,0,24.3l88.1,88.1 c3.3,3.3,7.7,5,12.1,5c4.4,0,8.8-1.7,12.1-5l88.1-88.1c6.7-6.7,6.7-17.6,0-24.3c-6.7-6.7-17.6-6.7-24.3,0L262,348.4V17.1 C262.1,7.6,254.5,0,245,0z"
+                      />
+                      <path
+                        d="M462.1,472.9v-99.7c0-9.5-7.7-17.2-17.2-17.2s-17.2,7.7-17.2,17.2v82.6H62.2v-82.6c0-9.5-7.7-17.2-17.1-17.2 s-17.2,7.7-17.2,17.2v99.7c0,9.5,7.7,17.1,17.2,17.1h399.8C454.4,490,462.1,482.4,462.1,472.9z"
+                      />
+                    </g>
+                  </g>
+                </svg>
+              </a>
+            </li>
+            <li
+              className="nav-item"
+              role="presentation"
+            >
+              <button
+                className="w-full block text-xs leading-tight uppercase px-2 py-2 hover:bg-purple-100 hover:text-white"
+                onClick={[Function]}
+                role="tab"
+              >
+                ❌
+              </button>
+            </li>
+            <li
+              className="nav-item relative"
+              role="presentation"
+            >
+              <div
+                className="relative"
+              >
+                <audio
+                  src="save.mp3"
+                />
+                <button
+                  className="w-full block text-xs leading-tight uppercase px-2 py-2 hover:bg-purple-100 hover:text-white"
+                  onClick={[Function]}
+                  role="tab"
+                >
+                  💾
+                </button>
+              </div>
+            </li>
+            <li
+              className="nav-item"
+              role="presentation"
+            >
+              <button
+                aria-selected="true"
+                className="w-full block text-xs leading-tight uppercase px-6 py-2 bg-purple-200 text-white"
+                onClick={[Function]}
+                role="tab"
+              >
+                Pretty
+              </button>
+            </li>
+            <li
+              className="nav-item"
+              role="presentation"
+            >
+              <button
+                aria-selected="false"
+                className="w-full block text-xs leading-tight uppercase px-6 py-2 hover:bg-purple-100 hover:bg-purple-100"
+                onClick={[Function]}
+                role="tab"
+              >
+                Text
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div
+          className="tab-content py-2 custom-scroller overflow-y-auto"
+        >
+          <div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer bg-lavender-100"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              />
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                I've been reading books of old
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                The legends and the myths
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Achilles and his gold
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Hercules and his gifts
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Spiderman's control
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                And Batman with his fists
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                And clearly I don't see myself upon that list
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                But she said, where d'you wanna go?
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                How much you wanna risk?
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                I'm not looking for somebody
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                With some superhuman gifts
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Some superhero
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Some fairytale bliss
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Just something I can turn to
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Somebody I can kiss
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                I want something just like this
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Doo-doo-doo, doo-doo-doo
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Doo-doo-doo, doo-doo
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Doo-doo-doo, doo-doo-doo
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Oh, I want something just like this
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Doo-doo-doo, doo-doo-doo
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Doo-doo-doo, doo-doo
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Doo-doo-doo, doo-doo-doo
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Oh, I want something just like this
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              />
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                I want something just like this
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              />
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                I've been reading books of old
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                The legends and the myths
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                The testaments they told
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                The moon and its eclipse
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                And Superman unrolls
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                A suit before he lifts
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                But I'm not the kind of person that it fits
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              />
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                She said, where d'you wanna go?
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                How much you wanna risk?
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                I'm not looking for somebody
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                With some superhuman gifts
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Some superhero
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Some fairytale bliss
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Just something I can turn to
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Somebody I can miss
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              />
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                I want something just like this
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              />
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Oh, I want something just like this
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              />
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Oh, I want something just like this
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Doo-doo-doo, doo-doo-doo
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Doo-doo-doo, doo-doo
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Doo-doo-doo, doo-doo-doo
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Oh, I want something just like this
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Doo-doo-doo, doo-doo-doo
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Doo-doo-doo, doo-doo
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Doo-doo-doo, doo-doo-doo
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              />
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Where d'you wanna go?
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                How much you wanna risk?
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                I'm not looking for somebody
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                With some superhuman gifts
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Some superhero
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Some fairytale bliss
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Just something I can turn to
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Somebody I can kiss
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                So I want something just like this
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Doo-doo-doo, doo-doo-doo
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Doo-doo-doo, doo-doo
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Doo-doo-doo, doo-doo-doo
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Oh, I want something just like this
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Doo-doo-doo, doo-doo-doo
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Doo-doo-doo, doo-doo
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Doo-doo-doo, doo-doo-doo
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Oh, I want something just like this
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              />
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`@mykeels/mee-karaoke components/SongCreator With Durations 1`] = `
+<div
+  className="block h-screen w-screen px-4 lg:px-16 py-8 song-creator overflow-y-auto custom-scroller"
+>
+  <div
+    className="block w-full text-right"
+  />
+  <div
+    className="block lg:flex w-full"
+  >
+    <div
+      className="inline-block w-full lg:w-5/12"
+    >
+      <div
+        className="lg:px-4 sticky top-0"
+      >
+        <div
+          className="block w-full bg-pink rounded border-2 border-purple-100"
+        >
+          <div
+            className="block w-full px-2 py-2"
+          >
+            <button
+              className="inline-block text-center text-white px-4 py-2 text-xs rounded shadow mx-2 border-2 border-pink focus:border-white focus:outline-none record hover:bg-purple-200 bg-purple-100"
+              disabled={false}
+              onClick={[Function]}
+            >
+              <span>
+                Record ⏺️
+              </span>
+            </button>
+            <button
+              className="inline-block text-center text-white px-4 py-2 text-xs rounded shadow mx-2 border-2 border-pink focus:border-white focus:outline-none play hover:bg-purple-200 bg-purple-100"
+              onClick={[Function]}
+            >
+              <span>
+                Play
+              </span>
+            </button>
+            <span
+              className="inline-block float-right text-purple-200 text-lg font-bold px-4"
+            >
+              00:00:000
+            </span>
+          </div>
+        </div>
+        <div
+          className="block py-2"
+        />
+        <div
+          className="flex lg:block w-full bg-pink border-2 border-purple-100 p-2 justify-center items-center"
+        >
+          <div
+            className="flex lg:block lg:w-full"
+          >
+            <select
+              className="hidden lg:block w-full font-bold focus:outline-none bg-purple-200 text-white p-2"
+              onChange={[Function]}
+              value="images"
+            >
+              <option
+                className="font-bold bg-purple-200"
+                value="images"
+              >
+                Photo Gallery
+              </option>
+              <option
+                className="bg-purple-100"
+                value="colors"
+              >
+                Solid Color(s)
+              </option>
+            </select>
+            <div
+              className="block lg:hidden w-full text-center"
+            >
+              <button
+                className="inline-block p-2 rounded my-1 hover:bg-purple-200 border-2 shadow border-white bg-purple-200"
+                onClick={[Function]}
+                title="Photo Gallery"
+              >
+                📸
+              </button>
+              <button
+                className="inline-block p-2 rounded my-1 hover:bg-purple-200 border-2 shadow border-purple-100 bg-purple-100 hover:border-white"
+                onClick={[Function]}
+                title="Solid Color(s)"
+              >
+                🏳️‍🌈
+              </button>
+            </div>
+          </div>
+          <audio
+            src="./sounds/something-just-like-this.mp3"
+          />
+          <div
+            className="inline-block lg:flex bg-pink preview relative w-5/12 lg:w-full"
+          >
+            <div>
+              <div
+                className="items-center justify-center z-20"
+                style={
+                  Object {
+                    "bottom": 0,
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "height": "100%",
+                    "left": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "width": "100%",
+                  }
+                }
+              >
+                <div
+                  className="h-24 relative w-full text-center flex items-center justify-center"
+                >
+                  <div
+                    className="h-24 w-full z-0 opacity-75 rounded absolute top-0 left-0"
+                  />
+                  <div
+                    className="z-10 relative font-bold p-4"
+                  >
+                    <div
+                      className="block"
+                    >
+                      <span
+                        className="inline-block p-2 px-4 rounded my-1 text-lg text-purple-100"
+                      >
+                        I've been reading books of old
+                      </span>
+                    </div>
+                    <div
+                      className="block"
+                    >
+                      <span
+                        className="inline-block p-2 px-4 rounded my-1 text-lg text-purple-100"
+                      >
+                        The legends and the myths
+                      </span>
+                    </div>
+                    <div
+                      className="block"
+                    >
+                      <span
+                        className="inline-block p-2 px-4 rounded my-1 text-lg text-purple-100"
+                      >
+                        Achilles and his gold
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="px-2 lg:py-2 inline-block"
+          />
+          <div
+            className="inline-block lg:block rounded overflow-auto image-slider-wrapper w-7/12 lg:w-full px-4 lg:px-0"
+          >
+            <button
+              className="inline-block px-2 py-1 rouded border hover:border-white shadow text-white  bg-purple-100 absolute right-2 lg:right-6 bottom-0 text-xs hover:bg-purple-200"
+              onClick={[Function]}
+              style={
+                Object {
+                  "bottom": 4,
+                }
+              }
+            >
+              Add
+            </button>
+            <div
+              className="block image-slider"
+              style={
+                Object {
+                  "width": "2640px",
+                }
+              }
+            >
+              <ul
+                className="list-none"
+              >
+                <li
+                  className="inline-block py-1 px-1"
+                >
+                  <div
+                    className="relative gallery-image-0"
+                  >
+                    <button
+                      onClick={[Function]}
+                    >
+                      <img
+                        className="shadow rouded border-2 border-white"
+                        src="https://images.unsplash.com/photo-1608659597669-b45511779f93?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=720&ixid=MnwxfDB8MXxyYW5kb218MHx8cmVhZGluZyBib29rcyBteXRocyBhY2hpbGxlc3x8fHx8fDE2NjUzMzY1NDg&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1280"
+                      />
+                    </button>
+                    <button
+                      className="w-8 h-8 rounded border text-white absolute right-0 top-0 text-xs hover:bg-purple-200 border-white bg-purple-200"
+                      onClick={[Function]}
+                    >
+                      x
+                    </button>
+                  </div>
+                </li>
+                <li
+                  className="inline-block py-1 px-1"
+                >
+                  <div
+                    className="relative gallery-image-1"
+                  >
+                    <button
+                      onClick={[Function]}
+                    >
+                      <img
+                        className="shadow rouded border-2 border-purple-100"
+                        src="https://images.unsplash.com/photo-1582560474992-385ebb9b29a4?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=720&ixid=MnwxfDB8MXxyYW5kb218MHx8ZCd5b3Ugd2FubmEgZ28gd2FubmEgcmlzayBzcGlkZXJtYW4ncyBjb250cm9sfHx8fHx8MTY2NTMzNjU0OA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1280"
+                      />
+                    </button>
+                    <button
+                      className="w-8 h-8 rounded border text-white absolute right-0 top-0 text-xs hover:bg-purple-200 border-purple-100 bg-purple-100"
+                      onClick={[Function]}
+                    >
+                      x
+                    </button>
+                  </div>
+                </li>
+                <li
+                  className="inline-block py-1 px-1"
+                >
+                  <div
+                    className="relative gallery-image-2"
+                  >
+                    <button
+                      onClick={[Function]}
+                    >
+                      <img
+                        className="shadow rouded border-2 border-purple-100"
+                        src="https://images.unsplash.com/photo-1511895307821-692dc4ad27c5?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=720&ixid=MnwxfDB8MXxyYW5kb218MHx8c3VwZXJodW1hbiBnaWZ0cyBmYWlyeXRhbGUgYmxpc3N8fHx8fHwxNjY1MzM2NTQ4&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1280"
+                      />
+                    </button>
+                    <button
+                      className="w-8 h-8 rounded border text-white absolute right-0 top-0 text-xs hover:bg-purple-200 border-purple-100 bg-purple-100"
+                      onClick={[Function]}
+                    >
+                      x
+                    </button>
+                  </div>
+                </li>
+                <li
+                  className="inline-block py-1 px-1"
+                >
+                  <div
+                    className="relative gallery-image-3"
+                  >
+                    <button
+                      onClick={[Function]}
+                    >
+                      <img
+                        className="shadow rouded border-2 border-purple-100"
+                        src="https://images.unsplash.com/photo-1651609948145-2750a57f3433?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=720&ixid=MnwxfDB8MXxyYW5kb218MHx8ZG9vIGRvbyBkb298fHx8fHwxNjY1MzM2NTQ4&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1280"
+                      />
+                    </button>
+                    <button
+                      className="w-8 h-8 rounded border text-white absolute right-0 top-0 text-xs hover:bg-purple-200 border-purple-100 bg-purple-100"
+                      onClick={[Function]}
+                    >
+                      x
+                    </button>
+                  </div>
+                </li>
+                <li
+                  className="inline-block py-1 px-1"
+                >
+                  <div
+                    className="relative gallery-image-4"
+                  >
+                    <button
+                      onClick={[Function]}
+                    >
+                      <img
+                        className="shadow rouded border-2 border-purple-100"
+                        src="https://images.unsplash.com/photo-1651613432638-fa96887ce033?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=720&ixid=MnwxfDB8MXxyYW5kb218MHx8ZG9vIGRvbyBkb298fHx8fHwxNjY1MzM2NTQ4&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1280"
+                      />
+                    </button>
+                    <button
+                      className="w-8 h-8 rounded border text-white absolute right-0 top-0 text-xs hover:bg-purple-200 border-purple-100 bg-purple-100"
+                      onClick={[Function]}
+                    >
+                      x
+                    </button>
+                  </div>
+                </li>
+                <li
+                  className="inline-block py-1 px-1"
+                >
+                  <div
+                    className="relative gallery-image-5"
+                  >
+                    <button
+                      onClick={[Function]}
+                    >
+                      <img
+                        className="shadow rouded border-2 border-purple-100"
+                        src="https://images.unsplash.com/photo-1565843248736-8c41e6db117b?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=720&ixid=MnwxfDB8MXxyYW5kb218MHx8cmVhZGluZyBib29rc3x8fHx8fDE2NjUzMzY1NDg&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1280"
+                      />
+                    </button>
+                    <button
+                      className="w-8 h-8 rounded border text-white absolute right-0 top-0 text-xs hover:bg-purple-200 border-purple-100 bg-purple-100"
+                      onClick={[Function]}
+                    >
+                      x
+                    </button>
+                  </div>
+                </li>
+                <li
+                  className="inline-block py-1 px-1"
+                >
+                  <div
+                    className="relative gallery-image-6"
+                  >
+                    <button
+                      onClick={[Function]}
+                    >
+                      <img
+                        className="shadow rouded border-2 border-purple-100"
+                        src="https://images.unsplash.com/photo-1493988577905-2fa4018652be?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=720&ixid=MnwxfDB8MXxyYW5kb218MHx8c3VwZXJtYW4gdW5yb2xscyB0b2xkIHRlc3RhbWVudHN8fHx8fHwxNjY1MzM2NTQ4&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1280"
+                      />
+                    </button>
+                    <button
+                      className="w-8 h-8 rounded border text-white absolute right-0 top-0 text-xs hover:bg-purple-200 border-purple-100 bg-purple-100"
+                      onClick={[Function]}
+                    >
+                      x
+                    </button>
+                  </div>
+                </li>
+                <li
+                  className="inline-block py-1 px-1"
+                >
+                  <div
+                    className="relative gallery-image-7"
+                  >
+                    <button
+                      onClick={[Function]}
+                    >
+                      <img
+                        className="shadow rouded border-2 border-purple-100"
+                        src="https://images.unsplash.com/photo-1566825106709-f28d3417b15f?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=720&ixid=MnwxfDB8MXxyYW5kb218MHx8ZCd5b3Ugd2FubmEgZ298fHx8fHwxNjY1MzM2NTQ4&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1280"
+                      />
+                    </button>
+                    <button
+                      className="w-8 h-8 rounded border text-white absolute right-0 top-0 text-xs hover:bg-purple-200 border-purple-100 bg-purple-100"
+                      onClick={[Function]}
+                    >
+                      x
+                    </button>
+                  </div>
+                </li>
+                <li
+                  className="inline-block py-1 px-1"
+                >
+                  <div
+                    className="relative gallery-image-8"
+                  >
+                    <button
+                      onClick={[Function]}
+                    >
+                      <img
+                        className="shadow rouded border-2 border-purple-100"
+                        src="https://images.unsplash.com/photo-1505159940484-eb2b9f2588e2?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=720&ixid=MnwxfDB8MXxyYW5kb218MHx8ZmFpcnl0YWxlIGJsaXNzfHx8fHx8MTY2NTMzNjU0OA&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1280"
+                      />
+                    </button>
+                    <button
+                      className="w-8 h-8 rounded border text-white absolute right-0 top-0 text-xs hover:bg-purple-200 border-purple-100 bg-purple-100"
+                      onClick={[Function]}
+                    >
+                      x
+                    </button>
+                  </div>
+                </li>
+                <li
+                  className="inline-block py-1 px-1"
+                >
+                  <div
+                    className="relative gallery-image-9"
+                  >
+                    <button
+                      onClick={[Function]}
+                    >
+                      <img
+                        className="shadow rouded border-2 border-purple-100"
+                        src="https://images.unsplash.com/photo-1581711190374-2f5dab086636?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=720&ixid=MnwxfDB8MXxyYW5kb218MHx8b2h8fHx8fHwxNjY1MzM2NTQ4&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1280"
+                      />
+                    </button>
+                    <button
+                      className="w-8 h-8 rounded border text-white absolute right-0 top-0 text-xs hover:bg-purple-200 border-purple-100 bg-purple-100"
+                      onClick={[Function]}
+                    >
+                      x
+                    </button>
+                  </div>
+                </li>
+                <li
+                  className="inline-block py-1 px-1"
+                >
+                  <div
+                    className="relative gallery-image-10"
+                  >
+                    <button
+                      onClick={[Function]}
+                    >
+                      <img
+                        className="shadow rouded border-2 border-purple-100"
+                        src="https://images.unsplash.com/photo-1651609948145-2750a57f3433?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=720&ixid=MnwxfDB8MXxyYW5kb218MHx8ZG9vIGRvbyBkb298fHx8fHwxNjY1MzM2NTQ4&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1280"
+                      />
+                    </button>
+                    <button
+                      className="w-8 h-8 rounded border text-white absolute right-0 top-0 text-xs hover:bg-purple-200 border-purple-100 bg-purple-100"
+                      onClick={[Function]}
+                    >
+                      x
+                    </button>
+                  </div>
+                </li>
+                <li
+                  className="inline-block py-1 px-1"
+                >
+                  <div
+                    className="relative gallery-image-11"
+                  >
+                    <button
+                      onClick={[Function]}
+                    >
+                      <img
+                        className="shadow rouded border-2 border-purple-100"
+                        src="https://images.unsplash.com/photo-1616988760321-919bcedc76aa?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=720&ixid=MnwxfDB8MXxyYW5kb218MHx8ZG9vIGRvbyBkb28gZCd5b3Ugd2FubmEgZ298fHx8fHwxNjY1MzM2NTQ4&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1280"
+                      />
+                    </button>
+                    <button
+                      className="w-8 h-8 rounded border text-white absolute right-0 top-0 text-xs hover:bg-purple-200 border-purple-100 bg-purple-100"
+                      onClick={[Function]}
+                    >
+                      x
+                    </button>
+                  </div>
+                </li>
+                <li
+                  className="inline-block py-1 px-1"
+                >
+                  <div
+                    className="relative gallery-image-12"
+                  >
+                    <button
+                      onClick={[Function]}
+                    >
+                      <img
+                        className="shadow rouded border-2 border-purple-100"
+                        src="https://images.unsplash.com/photo-1511895307821-692dc4ad27c5?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=720&ixid=MnwxfDB8MXxyYW5kb218MHx8c3VwZXJodW1hbiBnaWZ0cyBmYWlyeXRhbGUgYmxpc3N8fHx8fHwxNjY1MzM2NTQ4&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1280"
+                      />
+                    </button>
+                    <button
+                      className="w-8 h-8 rounded border text-white absolute right-0 top-0 text-xs hover:bg-purple-200 border-purple-100 bg-purple-100"
+                      onClick={[Function]}
+                    >
+                      x
+                    </button>
+                  </div>
+                </li>
+                <li
+                  className="inline-block py-1 px-1"
+                >
+                  <div
+                    className="relative gallery-image-13"
+                  >
+                    <button
+                      onClick={[Function]}
+                    >
+                      <img
+                        className="shadow rouded border-2 border-purple-100"
+                        src="https://images.unsplash.com/photo-1651609948145-2750a57f3433?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=720&ixid=MnwxfDB8MXxyYW5kb218MHx8ZG9vIGRvbyBkb298fHx8fHwxNjY1MzM2NTQ4&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1280"
+                      />
+                    </button>
+                    <button
+                      className="w-8 h-8 rounded border text-white absolute right-0 top-0 text-xs hover:bg-purple-200 border-purple-100 bg-purple-100"
+                      onClick={[Function]}
+                    >
+                      x
+                    </button>
+                  </div>
+                </li>
+                <li
+                  className="inline-block py-1 px-1"
+                >
+                  <div
+                    className="relative gallery-image-14"
+                  >
+                    <button
+                      onClick={[Function]}
+                    >
+                      <img
+                        className="shadow rouded border-2 border-purple-100"
+                        src="https://images.unsplash.com/photo-1651609948145-2750a57f3433?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=720&ixid=MnwxfDB8MXxyYW5kb218MHx8ZG9vIGRvbyBkb298fHx8fHwxNjY1MzM2NTQ4&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1280"
+                      />
+                    </button>
+                    <button
+                      className="w-8 h-8 rounded border text-white absolute right-0 top-0 text-xs hover:bg-purple-200 border-purple-100 bg-purple-100"
+                      onClick={[Function]}
+                    >
+                      x
+                    </button>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="py-2 block lg:hidden"
+    />
+    <div
+      className="inline-block w-full lg:w-7/12 p-4 bg-pink rounded border-2 border-purple-100"
+    >
+      <div
+        className="w-full"
+      >
+        <div
+          className="w-full flex"
+        >
+          <div
+            className="hidden sm:inline-block w-5/12 font-bold justify-left"
+            role="presentation"
+          >
+            Something just like this
+          </div>
+          <ul
+            className="nav nav-tabs w-full flex flex-row list-none border-b-0 pl-0 justify-end sm:w-7/12"
+            role="tablist"
+          >
+            <li
+              className="nav-item"
+              role="presentation"
+            >
+              <a
+                className="w-full block text-xs leading-tight uppercase px-2 py-2 hover:bg-purple-100 hover:text-white"
+                href="/exports"
+                onClick={[Function]}
+                role="tab"
+              >
+                <svg
+                  id="Capa_1"
+                  style={
+                    Object {
+                      "height": "16px",
+                      "width": "16px",
+                    }
+                  }
+                  version="1.1"
+                  viewBox="0 0 490 490"
+                  x="0px"
+                  xmlSpace="preserve"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlnsXlink="http://www.w3.org/1999/xlink"
+                  y="0px"
+                >
+                  <g>
+                    <g>
+                      <path
+                        d="M245,0c-9.5,0-17.2,7.7-17.2,17.2v331.2L169,289.6c-6.7-6.7-17.6-6.7-24.3,0s-6.7,17.6,0,24.3l88.1,88.1 c3.3,3.3,7.7,5,12.1,5c4.4,0,8.8-1.7,12.1-5l88.1-88.1c6.7-6.7,6.7-17.6,0-24.3c-6.7-6.7-17.6-6.7-24.3,0L262,348.4V17.1 C262.1,7.6,254.5,0,245,0z"
+                      />
+                      <path
+                        d="M462.1,472.9v-99.7c0-9.5-7.7-17.2-17.2-17.2s-17.2,7.7-17.2,17.2v82.6H62.2v-82.6c0-9.5-7.7-17.2-17.1-17.2 s-17.2,7.7-17.2,17.2v99.7c0,9.5,7.7,17.1,17.2,17.1h399.8C454.4,490,462.1,482.4,462.1,472.9z"
+                      />
+                    </g>
+                  </g>
+                </svg>
+              </a>
+            </li>
+            <li
+              className="nav-item"
+              role="presentation"
+            >
+              <button
+                className="w-full block text-xs leading-tight uppercase px-2 py-2 hover:bg-purple-100 hover:text-white"
+                onClick={[Function]}
+                role="tab"
+              >
+                ❌
+              </button>
+            </li>
+            <li
+              className="nav-item relative"
+              role="presentation"
+            >
+              <div
+                className="relative"
+              >
+                <audio
+                  src="save.mp3"
+                />
+                <button
+                  className="w-full block text-xs leading-tight uppercase px-2 py-2 hover:bg-purple-100 hover:text-white"
+                  onClick={[Function]}
+                  role="tab"
+                >
+                  💾
+                </button>
+              </div>
+            </li>
+            <li
+              className="nav-item"
+              role="presentation"
+            >
+              <button
+                aria-selected="true"
+                className="w-full block text-xs leading-tight uppercase px-6 py-2 bg-purple-200 text-white"
+                onClick={[Function]}
+                role="tab"
+              >
+                Pretty
+              </button>
+            </li>
+            <li
+              className="nav-item"
+              role="presentation"
+            >
+              <button
+                aria-selected="false"
+                className="w-full block text-xs leading-tight uppercase px-6 py-2 hover:bg-purple-100 hover:bg-purple-100"
+                onClick={[Function]}
+                role="tab"
+              >
+                Text
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div
+          className="tab-content py-2 custom-scroller overflow-y-auto"
+        >
+          <div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer bg-lavender-100"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              />
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:07
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                I've been reading books of old
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                The legends and the myths
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Achilles and his gold
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Hercules and his gifts
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Spiderman's control
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                And Batman with his fists
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:03
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                And clearly I don't see myself upon that list
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:03
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                But she said, where d'you wanna go?
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                How much you wanna risk?
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                I'm not looking for somebody
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                With some superhuman gifts
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Some superhero
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Some fairytale bliss
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Just something I can turn to
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Somebody I can kiss
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                I want something just like this
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Doo-doo-doo, doo-doo-doo
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Doo-doo-doo, doo-doo
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Doo-doo-doo, doo-doo-doo
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Oh, I want something just like this
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Doo-doo-doo, doo-doo-doo
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Doo-doo-doo, doo-doo
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Doo-doo-doo, doo-doo-doo
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Oh, I want something just like this
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:08
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              />
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:00
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                I want something just like this
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:09
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              />
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:00
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                I've been reading books of old
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                The legends and the myths
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                The testaments they told
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                The moon and its eclipse
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                And Superman unrolls
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                A suit before he lifts
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                But I'm not the kind of person that it fits
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:03
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              />
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:00
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                She said, where d'you wanna go?
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                How much you wanna risk?
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                I'm not looking for somebody
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                With some superhuman gifts
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Some superhero
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Some fairytale bliss
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Just something I can turn to
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Somebody I can miss
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              />
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:00
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                I want something just like this
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:09
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              />
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:00
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Oh, I want something just like this
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:08
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              />
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:00
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Oh, I want something just like this
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Doo-doo-doo, doo-doo-doo
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Doo-doo-doo, doo-doo
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Doo-doo-doo, doo-doo-doo
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Oh, I want something just like this
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Doo-doo-doo, doo-doo-doo
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Doo-doo-doo, doo-doo
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Doo-doo-doo, doo-doo-doo
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              />
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:00
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Where d'you wanna go?
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                How much you wanna risk?
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                I'm not looking for somebody
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                With some superhuman gifts
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Some superhero
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Some fairytale bliss
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Just something I can turn to
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Somebody I can kiss
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                So I want something just like this
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Doo-doo-doo, doo-doo-doo
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Doo-doo-doo, doo-doo
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Doo-doo-doo, doo-doo-doo
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Oh, I want something just like this
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Doo-doo-doo, doo-doo-doo
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Doo-doo-doo, doo-doo
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:02
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Doo-doo-doo, doo-doo-doo
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:01
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              >
+                Oh, I want something just like this
+              </div>
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:18
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="p-2 block w-full border-b border-gray-100 text-xs lg:text-lg xl:text-xl cursor-pointer"
+              onClick={[Function]}
+            >
+              <div
+                className="inline-block w-5/6"
+              />
+              <div
+                className="inline-block w-1/6"
+              >
+                <div
+                  className="block w-full"
+                >
+                  <div
+                    className="inline-block w-1/2"
+                  />
+                  <div
+                    className="inline-block w-1/2"
+                  >
+                    00:28
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

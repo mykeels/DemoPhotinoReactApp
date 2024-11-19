@@ -1,0 +1,255 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@mykeels/mee-karaoke components/SongExports Can Export 1`] = `
+<div
+  className="block h-screen w-screen song-exporter relative"
+>
+  <div
+    className="flex w-full h-full items-center justify-center py-4 px-8 bg-purple-100 opacity-75"
+  />
+  <div
+    className="block w-full h-full items-center justify-center py-4 px-16 absolute top-0 left-0 text-white text-sm md:text-lg overflow-auto custom-scroller"
+  >
+    <div
+      className="block w-full text-3xl py-8"
+    >
+      <div
+        className="inline-block w-3/4"
+      >
+        Export MP4 videos
+      </div>
+      <div
+        className="inline-block w-1/4 text-right"
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          ❎
+        </a>
+      </div>
+    </div>
+    <div
+      className="block md:flex w-full py-4"
+    >
+      <div
+        className="inline-block w-full px-2"
+      >
+        <div
+          className="block w-full px-8 py-4 bg-purple-200 my-4 min-h-80v"
+        >
+          <div
+            className="block w-full py-4"
+          >
+            <div
+              className="flex w-full"
+            >
+              <a
+                className="flex md:inline-block w-10/12 text-left bg-purple-100 bg-opacity-75 p-4 border border-purple-100 hover:border-white"
+                href="/create/1"
+                onClick={[Function]}
+              >
+                <div
+                  className="block w-full text-sm md:text-lg"
+                >
+                  Hello World
+                </div>
+              </a>
+              <button
+                className="flex w-1/4 justify-center items-center text-center px-4 ml-1 text-purple-200 bg-pink border border-pink hover:border-purple-100"
+                onClick={[Function]}
+              >
+                Export
+              </button>
+            </div>
+          </div>
+          <div
+            className="block w-full py-4"
+          >
+            <div
+              className="flex w-full"
+            >
+              <a
+                className="flex md:inline-block w-10/12 text-left bg-purple-100 bg-opacity-75 p-4 border border-purple-100 hover:border-white"
+                href="/create/2"
+                onClick={[Function]}
+              >
+                <div
+                  className="block w-full text-sm md:text-lg"
+                >
+                  Hello World
+                </div>
+              </a>
+              <button
+                className="flex w-1/4 justify-center items-center text-center px-4 ml-1 text-purple-200 bg-pink border border-pink hover:border-purple-100"
+                onClick={[Function]}
+              >
+                Export
+              </button>
+            </div>
+          </div>
+          <div
+            className="block w-full py-4"
+          >
+            <div
+              className="flex w-full"
+            >
+              <a
+                className="flex md:inline-block w-10/12 text-left bg-purple-100 bg-opacity-75 p-4 border border-purple-100 hover:border-white"
+                href="/create/3"
+                onClick={[Function]}
+              >
+                <div
+                  className="block w-full text-sm md:text-lg"
+                >
+                  Hello World
+                </div>
+              </a>
+              <button
+                className="flex w-1/4 justify-center items-center text-center px-4 ml-1 text-purple-200 bg-pink border border-pink hover:border-purple-100"
+                onClick={[Function]}
+              >
+                Export
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`@mykeels/mee-karaoke components/SongExports No Capability 1`] = `
+<div
+  className="block h-screen w-screen song-exporter relative"
+>
+  <div
+    className="flex w-full h-full items-center justify-center py-4 px-8 bg-purple-100 opacity-75"
+  />
+  <div
+    className="block w-full h-full items-center justify-center py-4 px-16 absolute top-0 left-0 text-white text-sm md:text-lg overflow-auto custom-scroller"
+  >
+    <div
+      className="block w-full text-3xl py-8"
+    >
+      <div
+        className="inline-block w-3/4"
+      >
+        Export MP4 videos
+      </div>
+      <div
+        className="inline-block w-1/4 text-right"
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          ❎
+        </a>
+      </div>
+    </div>
+    <div
+      className="block md:flex w-full py-4"
+    >
+      <div
+        className="block md:flex w-full py-4 text-white"
+      >
+        <div
+          className="inline-block w-full px-2 text-sm md:w-1/4"
+        >
+          <div
+            className="block w-full px-4 py-4 bg-purple-200 my-4"
+          >
+            <div
+              className="inline-block w-3/4"
+            >
+              1. Checking NodeJS is installed
+               
+            </div>
+            <div
+              className="inline-block w-1/4 text-right"
+            >
+              ❌
+            </div>
+          </div>
+          <div
+            className="block w-full px-4 py-4 bg-purple-200 my-4"
+          >
+            <div
+              className="inline-block w-3/4"
+            >
+              2. Checking FFMpeg is installed
+               
+            </div>
+            <div
+              className="inline-block w-1/4 text-right"
+            >
+              ❌
+            </div>
+          </div>
+        </div>
+        <div
+          className="inline-block w-full md:w-3/4 px-2"
+        >
+          <div
+            className="block w-full px-8 py-4 bg-purple-200 my-4 h-80v overflow-auto custom-scroller"
+          >
+            <h2
+              className="underline py-4"
+            >
+              NodeJS is not installed
+            </h2>
+            <p
+              className="py-4"
+            >
+              To export this Karaoke video you need NodeJS installed on your computer.
+            </p>
+            <p
+              className="py-4"
+            >
+              You can
+               
+              <a
+                className="underline text-lavender-100"
+                href="https://nodejs.org/en/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                download and install the LTS version
+              </a>
+              .
+            </p>
+            <h2
+              className="underline py-4"
+            >
+              FfMpeg is not installed
+            </h2>
+            <p
+              className="py-4"
+            >
+              To export this Karaoke video you need FfMpeg installed on your computer.
+            </p>
+            <p
+              className="py-4"
+            >
+              You can
+               
+              <a
+                className="underline text-lavender-100"
+                href="https://ffmpeg.org/download.html"
+                rel="noreferrer"
+                target="_blank"
+              >
+                download and install an executable
+              </a>
+               
+              for Ffmpeg.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

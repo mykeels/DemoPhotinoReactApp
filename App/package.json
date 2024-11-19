@@ -101,12 +101,5 @@
             "last 1 firefox version",
             "last 1 safari version"
         ]
-    },
-    "resolutions": {
-        "**/ua-parser-js": "0.7.28",
-        "glob-parent": ">=5.1.2",
-        "trim": ">=0.0.3",
-        "nth-check": ">=2.0.1",
-        "trim-newlines": ">=3.0.1"
     }
 }

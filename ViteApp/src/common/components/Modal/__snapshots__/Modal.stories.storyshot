@@ -1,0 +1,225 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@mykeels/mee-karaoke common/Modal Full Size 1`] = `
+<div
+  className="modal fixed w-full h-full top-0 left-0 flex items-center justify-center z-30"
+>
+  <div
+    className="modal-overlay absolute w-full h-full bg-brown-200 opacity-80"
+  />
+  <div
+    className="modal-container bg-white w-11/12 mx-auto my-4 rounded shadow-lg z-50 max-h-full overflow-y-auto md:max-w-full"
+  >
+    <div
+      className="bg-yellow flex justify-between items-center pl-6 pr-2 font-bold py-4 text-2xl"
+    >
+      <span>
+        Full Size
+      </span>
+    </div>
+    <div
+      className="modal-content py-4 text-left px-6 bg-white"
+    >
+      <div>
+        This is a modal's body
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`@mykeels/mee-karaoke common/Modal Max Size 1`] = `
+<div
+  className="modal fixed w-full h-full top-0 left-0 flex items-center justify-center z-30"
+>
+  <div
+    className="modal-overlay absolute w-full h-full bg-brown-200 opacity-80"
+  />
+  <div
+    className="modal-container bg-white w-11/12 mx-auto my-4 rounded shadow-lg z-50 max-h-full overflow-y-auto md:max-w-max"
+  >
+    <div
+      className="bg-yellow flex justify-between items-center pl-6 pr-2 font-bold py-4 text-2xl"
+    >
+      <span>
+        Max Size
+      </span>
+    </div>
+    <div
+      className="modal-content py-4 text-left px-6 bg-white"
+    >
+      <div>
+        This is a modal's body
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`@mykeels/mee-karaoke common/Modal With Close Button 1`] = `
+<div
+  className="modal fixed w-full h-full top-0 left-0 flex items-center justify-center z-30"
+>
+  <div
+    className="modal-overlay absolute w-full h-full bg-brown-200 opacity-80"
+  />
+  <div
+    className="modal-container bg-white w-11/12 mx-auto my-4 rounded shadow-lg z-50 max-h-full overflow-y-auto md:max-w-lg"
+  >
+    <div
+      className="bg-yellow flex justify-between items-center pl-6 pr-2 font-bold py-4 text-2xl"
+    >
+      <span>
+        Custom Title
+      </span>
+      <button
+        onClick={[Function]}
+      >
+        <svg
+          height="14.251"
+          viewBox="0 0 14.251 14.251"
+          width="14.251"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect
+            fill="currentColor"
+            height="2.159"
+            rx="1.08"
+            transform="translate(1.527) rotate(45)"
+            width="17.995"
+          />
+          <rect
+            data-name="Rectangle 146"
+            fill="currentColor"
+            height="2.159"
+            rx="1.08"
+            transform="translate(14.252 1.527) rotate(135)"
+            width="17.995"
+          />
+        </svg>
+      </button>
+    </div>
+    <div
+      className="modal-content py-4 text-left px-6 bg-white"
+    >
+      <div>
+        This is a modal's body
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`@mykeels/mee-karaoke common/Modal With Custom Container 1`] = `
+<div
+  className="modal fixed w-full h-full top-0 left-0 flex items-center justify-center z-30"
+>
+  <div
+    className="modal-overlay absolute w-full h-full bg-brown-200 opacity-80"
+  />
+  <div
+    className="modal-container bg-white w-11/12 md:max-w-lg mx-auto my-4 rounded shadow-lg z-50 max-h-full overflow-y-auto border-2 border-red"
+    size="lg"
+  >
+    <div
+      className="bg-yellow flex justify-between items-center pl-6 pr-2 font-bold py-4 text-2xl"
+    >
+      <span>
+        Custom Container
+      </span>
+    </div>
+    <div
+      className="modal-content py-4 text-left px-6 bg-white"
+    >
+      <div>
+        This is a modal's body
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`@mykeels/mee-karaoke common/Modal With Custom Content 1`] = `
+<div
+  className="modal fixed w-full h-full top-0 left-0 flex items-center justify-center z-30"
+>
+  <div
+    className="modal-overlay absolute w-full h-full bg-brown-200 opacity-80"
+  />
+  <div
+    className="modal-container bg-white w-11/12 mx-auto my-4 rounded shadow-lg z-50 max-h-full overflow-y-auto md:max-w-lg"
+  >
+    <div
+      className="bg-yellow flex justify-between items-center pl-6 pr-2 font-bold py-4 text-2xl"
+    >
+      <span>
+        Custom Content 👇🏻
+      </span>
+    </div>
+    <div
+      className="bg-brown-300 text-white flex justify-between items-center pl-6 pr-2 font-bold py-4 text-2xl"
+    >
+      <div>
+        This is a modal's body with a custom component
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`@mykeels/mee-karaoke common/Modal With Custom Overlay 1`] = `
+<div
+  className="modal fixed w-full h-full top-0 left-0 flex items-center justify-center z-30"
+>
+  <div
+    className="modal-overlay absolute w-full h-full bg-gray-900 opacity-50 bg-brown-200"
+  />
+  <div
+    className="modal-container bg-white w-11/12 mx-auto my-4 rounded shadow-lg z-50 max-h-full overflow-y-auto md:max-w-lg"
+  >
+    <div
+      className="bg-yellow flex justify-between items-center pl-6 pr-2 font-bold py-4 text-2xl"
+    >
+      <span>
+        Custom Overlay
+      </span>
+    </div>
+    <div
+      className="modal-content py-4 text-left px-6 bg-white"
+    >
+      <div>
+        This is a modal's body
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`@mykeels/mee-karaoke common/Modal With Custom Title 1`] = `
+<div
+  className="modal fixed w-full h-full top-0 left-0 flex items-center justify-center z-30"
+>
+  <div
+    className="modal-overlay absolute w-full h-full bg-brown-200 opacity-80"
+  />
+  <div
+    className="modal-container bg-white w-11/12 mx-auto my-4 rounded shadow-lg z-50 max-h-full overflow-y-auto md:max-w-lg"
+  >
+    <div
+      className="bg-red text-white flex justify-between items-center pl-6 pr-2 font-bold py-4 text-2xl"
+      size="lg"
+    >
+      <span>
+        Custom Title
+      </span>
+    </div>
+    <div
+      className="modal-content py-4 text-left px-6 bg-white"
+    >
+      <div>
+        This is a modal's body
+      </div>
+    </div>
+  </div>
+</div>
+`;
