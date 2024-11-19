@@ -11,6 +11,10 @@
     "sourceMap": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
     "resolveJsonModule": true
   },
   "compileOnSave": false,
