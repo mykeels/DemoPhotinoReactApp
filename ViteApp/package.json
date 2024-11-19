@@ -1,0 +1,36 @@
+{
+  "name": "@mykeels/mee-karaoke",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "storybook": "start-storybook -p 6925 -s public",
+    "build-storybook": "build-storybook -s public",
+    "analyze": "webpack-bundle-analyzer build/stats.json",
+    "build:renderer": "node ./scripts/build-video-renderer.script.js",
+    "watch:renderer": "npx nodemon -e js ./scripts/build-video-renderer.script.js",
+    "serve:renderer": "npx live-server ./build/renderer",
+    "build:render-script": "webpack build --config ./scripts/render-media-webpack.config.js",
+    "render:video": "node ./scripts/render-media.script.js"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "eslint": "^9.13.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.14",
+    "globals": "^15.11.0",
+    "vite": "^5.4.10"
+  }
+}
