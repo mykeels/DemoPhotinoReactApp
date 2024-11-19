@@ -7,8 +7,8 @@
 export const frames = (
   seconds,
   framesPerSecond = Number(
-    process.env.REACT_APP_FRAMES_PER_SECOND ||
-      process.env.REMOTION_FRAMES_PER_SECOND ||
+    import.meta.env.REACT_APP_FRAMES_PER_SECOND ||
+      import.meta.env.REMOTION_FRAMES_PER_SECOND ||
       60
   )
 ) => Math.ceil(seconds * framesPerSecond);
@@ -22,8 +22,8 @@ export const frames = (
 export const f2s = (
   frames,
   framesPerSecond = Number(
-    process.env.REACT_APP_FRAMES_PER_SECOND ||
-      process.env.REMOTION_FRAMES_PER_SECOND ||
+    import.meta.env.REACT_APP_FRAMES_PER_SECOND ||
+      import.meta.env.REMOTION_FRAMES_PER_SECOND ||
       60
   )
 ) => Math.ceil(frames / framesPerSecond);

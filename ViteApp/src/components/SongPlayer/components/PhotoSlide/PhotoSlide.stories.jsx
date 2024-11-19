@@ -19,7 +19,7 @@ export const Index = () => (
     compositionWidth={1280}
     compositionHeight={720}
     controls
-    autoPlay={!process.env.REACT_APP_PREVENT_AUTOPLAY}
+    autoPlay={!import.meta.env.REACT_APP_PREVENT_AUTOPLAY}
     loop
   />
 );

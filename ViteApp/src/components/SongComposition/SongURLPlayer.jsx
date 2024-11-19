@@ -55,5 +55,5 @@ export const SongURLPlayer = ({ url, onDurationChange }) => {
 
 SongURLPlayer.defaultProps = {
   onDurationChange: () => {},
-  url: process.env.REACT_APP_VIDEO_URL || process.env.REMOTION_VIDEO_URL
+  url: import.meta.env.REACT_APP_VIDEO_URL || import.meta.env.REMOTION_VIDEO_URL
 };

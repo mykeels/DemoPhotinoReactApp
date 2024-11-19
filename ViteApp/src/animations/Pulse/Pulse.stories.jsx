@@ -32,7 +32,7 @@ const PulseComponent = ({ ...props }) => (
     fps={frames(1)}
     compositionWidth={640}
     compositionHeight={320}
-    autoPlay={!process.env.REACT_APP_PREVENT_AUTOPLAY}
+    autoPlay={!import.meta.env.REACT_APP_PREVENT_AUTOPLAY}
     loop
     controls
   />

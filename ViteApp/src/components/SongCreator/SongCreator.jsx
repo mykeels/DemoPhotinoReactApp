@@ -2,7 +2,7 @@ import "./SongCreator.css";
 
 import React, { useCallback, useEffect, useRef, useState } from "react";
 import { LyricsTabView } from "./components/LyricsTabView";
-import rake from "rake-js";
+import keywordExtractor from "keyword-extractor";
 import { TimeKeeper } from "./components/TimeKeeper";
 import { ImageGallery } from "./components/ImageGallery";
 import classNames from "classnames";
@@ -10,7 +10,7 @@ import { BackgroundSelect } from "./components/BackgroundSelect";
 import { ColorGallery } from "./components/ColorGallery";
 import { StillHighlightedVerseSubtitles } from "../SongPlayer";
 
-const apiRootURL = process.env.REACT_APP_API_ROOT;
+const apiRootURL = import.meta.env.REACT_APP_API_ROOT;
 
 /**
  * @param {Song} song
@@ -328,6 +328,13 @@ SongCreator.defaultProps = {
   }
 };
 
+const extractKeywords = (text) => {
+  return keywordExtractor.extract(text, {
+    language: "english",
+    remove_duplicates: true
+  });
+};
+
 /** @param {Song} lines */
 async function getImages(lines, intervals = 5) {
   let cursor = intervals;
@@ -341,7 +348,7 @@ async function getImages(lines, intervals = 5) {
       texts.push(line.text);
     } else {
       cursor += intervals;
-      keywords.push(rake(texts.join("\n"), { language: "english" }).join(" "));
+      keywords.push(extractKeywords(texts.join("\n")).join(" "));
       texts = [line.text];
     }
   }

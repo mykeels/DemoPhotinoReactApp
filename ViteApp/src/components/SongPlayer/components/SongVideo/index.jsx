@@ -3,7 +3,7 @@ import { CenterFill, HighlightedVerseSubtitles, PhotoSlideshow } from "..";
 import { Audio } from "remotion";
 import { ColorTransitions } from "../../../../animations";
 
-const apiRootURL = process.env.REACT_APP_API_ROOT;
+const apiRootURL = import.meta.env.REACT_APP_API_ROOT;
 
 /**
  * @typedef {object} SongVideoProps

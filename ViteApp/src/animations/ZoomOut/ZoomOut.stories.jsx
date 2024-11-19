@@ -2,12 +2,12 @@ import { Player } from "@remotion/player";
 import React from "react";
 import { AbsoluteFill } from "remotion";
 
-import { FadeOut } from ".";
+import { ZoomOut } from ".";
 import { frames } from "../../common";
 
 export default {
-  title: "animations/FadeOut",
-  component: FadeOut,
+  title: "animations/ZoomOut",
+  component: ZoomOut,
   decorators: []
 };
 
@@ -17,25 +17,27 @@ const duration = 1.5;
  *
  * @type {React.FC<{ size?: number }>}
  */
-const FadeOutComponent = ({ size }) => (
+const ZoomOutComponent = ({ size }) => (
   <Player
     component={() => (
       <AbsoluteFill className="bg-pink items-center justify-center">
-        <FadeOut size={size}>
+        <ZoomOut size={size}>
           <div className="bg-purple-200 p-8 rounded text-white text-xl">
             Hello World
           </div>
-        </FadeOut>
+        </ZoomOut>
       </AbsoluteFill>
     )}
     durationInFrames={frames(duration)}
     fps={frames(1)}
     compositionWidth={640}
     compositionHeight={320}
-    autoPlay={!process.env.REACT_APP_PREVENT_AUTOPLAY}
+    autoPlay={!import.meta.env.REACT_APP_PREVENT_AUTOPLAY}
     loop
     controls
   />
 );
 
-export const Index = () => <FadeOutComponent />;
+export const Index = () => <ZoomOutComponent />;
+
+export const CustomSize = () => <ZoomOutComponent size={0.4} />;

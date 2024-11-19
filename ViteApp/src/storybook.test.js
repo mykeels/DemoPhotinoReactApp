@@ -8,7 +8,7 @@ import { create, act } from "react-test-renderer";
 
 import { sleep } from "./common";
 
-process.env.REACT_APP_PREVENT_AUTOPLAY = true;
+import.meta.env.REACT_APP_PREVENT_AUTOPLAY = true;
 
 jest.mock("@remotion/player", () => ({
   ...jest.requireActual("@remotion/player"),

@@ -14,7 +14,7 @@ export default {
 
 const queryClient = new QueryClient();
 const asset = (url) => {
-  const publicUrl = `${process.env.STORYBOOK_PUBLIC_URL || "/"}`;
+  const publicUrl = `${import.meta.env.STORYBOOK_PUBLIC_URL || "/"}`;
   const root = publicUrl === "." ? "" : publicUrl;
   return String(`${root}${url}`).replace("//", "/");
 };

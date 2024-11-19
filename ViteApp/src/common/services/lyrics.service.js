@@ -1,7 +1,7 @@
 import { uniqBy } from "lodash";
 import * as cheerio from "cheerio";
 
-const apiRootUrl = process.env.REACT_APP_API_ROOT;
+const apiRootUrl = import.meta.env.REACT_APP_API_ROOT;
 
 /** @param {string} title */
 export async function getLyricsOptions(title) {
