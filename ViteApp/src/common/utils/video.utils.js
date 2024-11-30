@@ -7,7 +7,7 @@
 export const frames = (
   seconds,
   framesPerSecond = Number(
-    import.meta.env.REACT_APP_FRAMES_PER_SECOND ||
+    import.meta.env.VITE_FRAMES_PER_SECOND ||
       import.meta.env.REMOTION_FRAMES_PER_SECOND ||
       60
   )
@@ -22,7 +22,7 @@ export const frames = (
 export const f2s = (
   frames,
   framesPerSecond = Number(
-    import.meta.env.REACT_APP_FRAMES_PER_SECOND ||
+    import.meta.env.VITE_FRAMES_PER_SECOND ||
       import.meta.env.REMOTION_FRAMES_PER_SECOND ||
       60
   )

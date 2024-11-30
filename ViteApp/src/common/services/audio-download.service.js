@@ -1,4 +1,4 @@
-const apiRootUrl = import.meta.env.REACT_APP_API_ROOT;
+const apiRootUrl = import.meta.env.VITE_API_ROOT;
 
 /**
  * @typedef {object} AudioDownload

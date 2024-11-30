@@ -33,7 +33,7 @@ const ColorTransitionComponent = ({ from, to }) => (
     fps={frames(1)}
     compositionWidth={640}
     compositionHeight={320}
-    autoPlay={!import.meta.env.REACT_APP_PREVENT_AUTOPLAY}
+    autoPlay={!import.meta.env.VITE_PREVENT_AUTOPLAY}
     loop
     controls
   />

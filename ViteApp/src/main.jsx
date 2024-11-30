@@ -8,7 +8,7 @@ import { App } from "./App.jsx";
 import { QueryClient, QueryClientProvider } from "react-query";
 
 const queryClient = new QueryClient();
-const Router = import.meta.env.REACT_APP_USE_HASH_ROUTER
+const Router = import.meta.env.VITE_USE_HASH_ROUTER
   ? HashRouter
   : typeof window === "undefined"
   ? MemoryRouter

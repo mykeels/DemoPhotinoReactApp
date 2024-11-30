@@ -175,15 +175,15 @@ export const SongExporter = ({
 
 SongExporter.defaultProps = {
   startExport: (id) => {
-    const apiRootUrl = import.meta.env.REACT_APP_API_ROOT;
+    const apiRootUrl = import.meta.env.VITE_API_ROOT;
     return new EventSource(`${apiRootUrl}/video-builds/${id}/start`);
   },
   listenToExport: (id) => {
-    const apiRootUrl = import.meta.env.REACT_APP_API_ROOT;
+    const apiRootUrl = import.meta.env.VITE_API_ROOT;
     return new EventSource(`${apiRootUrl}/video-builds/${id}`);
   },
   stopExport: async (id) => {
-    const apiRootUrl = import.meta.env.REACT_APP_API_ROOT;
+    const apiRootUrl = import.meta.env.VITE_API_ROOT;
     return fetch(`${apiRootUrl}/video-builds/${id}`, {
       method: "delete"
     }).then(() => {});

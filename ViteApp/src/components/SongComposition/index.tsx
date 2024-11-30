@@ -12,7 +12,7 @@ export const SongURLComposition: React.FC<
   SongURLCompositionProps & { [key: string]: any }
 > = () => {
   const duration = Number(
-    import.meta.env.REACT_APP_VIDEO_DURATION ||
+    import.meta.env.VITE_VIDEO_DURATION ||
       import.meta.env.REMOTION_VIDEO_DURATION ||
       20
   );

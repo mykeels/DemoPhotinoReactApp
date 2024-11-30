@@ -10,7 +10,7 @@ import { BackgroundSelect } from "./components/BackgroundSelect/index.jsx";
 import { ColorGallery } from "./components/ColorGallery/index.jsx";
 import { StillHighlightedVerseSubtitles } from "../SongPlayer/index.js";
 
-const apiRootURL = import.meta.env.REACT_APP_API_ROOT;
+const apiRootURL = import.meta.env.VITE_API_ROOT;
 
 /**
  * @param {Song} song

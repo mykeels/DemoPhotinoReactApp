@@ -1,4 +1,4 @@
-const apiRootUrl = import.meta.env.REACT_APP_API_ROOT;
+const apiRootUrl = import.meta.env.VITE_API_ROOT;
 
 /** @param {string} id */
 export async function getSongById(id) {
@@ -81,7 +81,7 @@ async function uploadAudioFile(content) {
 
 /** @returns {Promise<SongRecord[]>} */
 export async function getSongRecords() {
-  const apiRoot = import.meta.env.REACT_APP_API_ROOT;
+  const apiRoot = import.meta.env.VITE_API_ROOT;
   return fetch(`${apiRoot}/Songs`).then((res) => res.json());
 }
 
@@ -91,7 +91,7 @@ export async function getSongRecords() {
  * @returns {Promise<void>}
  */
 export async function deleteSong(id) {
-  const apiRoot = import.meta.env.REACT_APP_API_ROOT;
+  const apiRoot = import.meta.env.VITE_API_ROOT;
   return fetch(`${apiRoot}/Songs/${id}`, {
     method: "delete"
   }).then((res) => res.json());
