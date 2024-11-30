@@ -1,1 +1,1 @@
-export * from "./YoutubeDownloader";
+export * from "./YoutubeDownloader/index.jsx";

@@ -5,7 +5,7 @@ import { Settings } from "luxon";
 import timemachine from "timemachine";
 import { create, act } from "react-test-renderer";
 
-import { sleep } from "./common";
+import { sleep } from "./common/index.js";
 
 import.meta.env.REACT_APP_PREVENT_AUTOPLAY = true;
 

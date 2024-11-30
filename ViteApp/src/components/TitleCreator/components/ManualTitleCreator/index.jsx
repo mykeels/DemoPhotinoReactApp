@@ -3,7 +3,7 @@ import "../../TitleCreator.css";
 import classNames from "classnames";
 import { useRef, useState } from "react";
 import { useForm } from "react-hook-form";
-import { Spinner } from "../../../../common";
+import { Spinner } from "../../../../common/index.js";
 
 /**
  * @typedef {{ title: string, lyrics: string }} ManualTitleCreatorSubmission
@@ -23,7 +23,7 @@ export const ManualTitleCreator = ({ onSubmit, onCancel }) => {
   const {
     handleSubmit,
     register,
-    errors: formErrors,
+    formState: { errors: formErrors },
     reset
   } = useForm({
     mode: "onChange",
@@ -65,8 +65,8 @@ export const ManualTitleCreator = ({ onSubmit, onCancel }) => {
                     "border border-pink": formErrors.title
                   }
                 )}
-                ref={register({
-                  required: "Please provide a Song Title"
+                {...register("title", {
+                  required: "Please provide a Song Title",
                 })}
               />
               <div className="py-2">
@@ -87,7 +87,7 @@ export const ManualTitleCreator = ({ onSubmit, onCancel }) => {
                     "border border-pink": formErrors.lyrics
                   }
                 )}
-                ref={register({
+                {...register("lyrics", {
                   required: "Please provide Lyrics"
                 })}
               />

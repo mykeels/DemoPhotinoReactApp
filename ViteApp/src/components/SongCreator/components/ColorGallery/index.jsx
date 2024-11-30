@@ -1,6 +1,6 @@
 import classNames from "classnames";
 import { useCallback, useEffect, useState } from "react";
-import { useMedia } from "../../../../hooks";
+import { useMedia } from "../../../../hooks/index.js";
 
 /**
  * @typedef {object} ColorGalleryProps

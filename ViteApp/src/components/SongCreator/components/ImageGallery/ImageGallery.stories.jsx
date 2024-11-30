@@ -1,5 +1,5 @@
 
-import { ImageGallery } from "./";
+import { ImageGallery } from "./index.jsx";
 
 export default {
   title: "components/SongCreator/components/ImageGallery",

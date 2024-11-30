@@ -1,1 +1,1 @@
-export * from "./ManualTitleCreator";
+export * from "./ManualTitleCreator/index.jsx";

@@ -8,12 +8,12 @@ import {
   SongPicker,
   SongUploaderScreen,
   SongUploader
-} from "./components";
-import { LyricsTabView } from "./components/SongCreator/components/LyricsTabView";
-import { getSongById, saveSongFileContents } from "./common/services";
-import { SongCreatorScreen } from "./components/SongCreator";
-import { Redirect } from "./common";
-import { SongExporterScreen } from "./components/SongExporter";
+} from "./components/index.js";
+import { LyricsTabView } from "./components/SongCreator/components/LyricsTabView/index.jsx";
+import { getSongById, saveSongFileContents } from "./common/services/index.js";
+import { SongCreatorScreen } from "./components/SongCreator/index.js";
+import { Redirect } from "./common/index.js";
+import { SongExporterScreen } from "./components/SongExporter/index.js";
 
 /**
  * @typedef {object} AppProps

@@ -1,8 +1,8 @@
 import { AbsoluteFill } from "remotion";
 import { Player } from "@remotion/player";
 
-import { SlideIn } from "./index";
-import { frames } from "../../common";
+import { SlideIn } from "./index.jsx";
+import { frames } from "../../common/index.js";
 
 export default {
   title: "animations/SlideIn",

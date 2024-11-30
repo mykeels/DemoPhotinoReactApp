@@ -1,2 +1,2 @@
-export * from "./SongCreatorScreen";
-export * from "./SongCreator";
+export * from "./SongCreatorScreen.jsx";
+export * from "./SongCreator.jsx";

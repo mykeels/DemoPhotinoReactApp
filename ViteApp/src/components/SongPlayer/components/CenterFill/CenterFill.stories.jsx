@@ -1,5 +1,5 @@
 
-import { CenterFill } from "./";
+import { CenterFill } from "./index.jsx";
 
 export default {
   title: "components/SongPlayer/components/CenterFill",

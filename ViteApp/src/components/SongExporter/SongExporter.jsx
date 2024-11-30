@@ -3,8 +3,8 @@ import "./SongExporter.css";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { useMutation } from "react-query";
-import { frames, Spinner } from "../../common";
-import { getSongById } from "../../common/services";
+import { frames, Spinner } from "../../common/index.js";
+import { getSongById } from "../../common/services/index.js";
 
 /**
  * @typedef {object} SongExporterProps

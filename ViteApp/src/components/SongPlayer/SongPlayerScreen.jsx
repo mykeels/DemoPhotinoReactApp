@@ -2,8 +2,8 @@ import { useEffect } from "react";
 import { useQuery } from "react-query";
 import { useParams, useNavigate } from "react-router-dom";
 
-import { getSongById } from "../../common/services";
-import { SongPlayer } from "./SongPlayer";
+import { getSongById } from "../../common/services/index.js";
+import { SongPlayer } from "./SongPlayer.jsx";
 
 /**
  * @typedef {object} SongPlayerScreenProps

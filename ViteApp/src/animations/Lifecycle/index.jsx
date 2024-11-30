@@ -1,7 +1,7 @@
 import classNames from "classnames/dedupe";
 import { useCallback, useState } from "react";
 import { Sequence, useVideoConfig } from "remotion";
-import { starts } from "../../common/utils";
+import { starts } from "../../common/utils/index.js";
 import * as transformParser from "transform-parser";
 
 /**React.FC<{ duration: number }>

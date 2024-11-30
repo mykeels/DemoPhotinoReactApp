@@ -1,6 +1,6 @@
 
-import { SongCreator } from "./";
-import { LyricsTabView } from "./components/LyricsTabView";
+import { SongCreator } from "./index.js";
+import { LyricsTabView } from "./components/LyricsTabView/index.jsx";
 import sampleSong from "../../common/data/sample-song.json";
 import { BrowserRouter } from "react-router-dom";
 

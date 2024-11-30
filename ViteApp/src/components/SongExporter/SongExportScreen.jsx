@@ -1,4 +1,4 @@
-import { SongExports } from "./SongExports";
+import { SongExports } from "./SongExports.jsx";
 
 /**
  * @typedef {object} SongExporterScreenProps

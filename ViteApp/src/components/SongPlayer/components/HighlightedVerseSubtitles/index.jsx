@@ -8,8 +8,8 @@ import {
 } from "remotion";
 import * as transformParser from "transform-parser";
 
-import { Pulse } from "../../../../animations";
-import { frames, starts, isFrameWithin } from "../../../../common";
+import { Pulse } from "../../../../animations/index.js";
+import { frames, starts, isFrameWithin } from "../../../../common/index.js";
 
 /**
  * @typedef {object} HighlightedVerseSubtitlesProps

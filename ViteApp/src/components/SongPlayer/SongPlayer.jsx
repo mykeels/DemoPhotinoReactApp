@@ -1,8 +1,8 @@
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import { Player } from "@remotion/player";
 
-import { frames } from "../../common/utils";
-import { SongVideo } from "./components";
+import { frames } from "../../common/utils/index.js";
+import { SongVideo } from "./components/index.js";
 
 /**
  * @typedef {object} SongPlayerProps

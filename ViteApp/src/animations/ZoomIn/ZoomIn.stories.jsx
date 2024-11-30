@@ -1,8 +1,8 @@
 import { Player } from "@remotion/player";
 import { AbsoluteFill } from "remotion";
 
-import { ZoomIn } from "./";
-import { frames } from "../../common";
+import { ZoomIn } from "./index.jsx";
+import { frames } from "../../common/index.js";
 
 export default {
   title: "animations/ZoomIn",

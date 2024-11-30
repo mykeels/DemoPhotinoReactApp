@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { SavedFileUploader } from ".";
+import { SavedFileUploader } from "./index.jsx";
 
 export default {
   title: "components/SavedFileUploader",

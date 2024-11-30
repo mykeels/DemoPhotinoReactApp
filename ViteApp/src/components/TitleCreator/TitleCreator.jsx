@@ -3,9 +3,9 @@ import "./TitleCreator.css";
 import classNames from "classnames";
 import { useState } from "react";
 import { useMutation, useQuery } from "react-query";
-import { Spinner } from "../../common";
-import { ManualTitleCreator } from "./components";
-import { useDebounce } from "../../hooks";
+import { Spinner } from "../../common/index.js";
+import { ManualTitleCreator } from "./components/index.js";
+import { useDebounce } from "../../hooks/index.js";
 
 /**
  * 

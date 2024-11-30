@@ -1,5 +1,5 @@
 
-import { SongLine } from "./";
+import { SongLine } from "./index.jsx";
 
 export default {
   title: "components/SongCreator/components/SongLine",

@@ -2,8 +2,8 @@ import {
   Sequence,
   useVideoConfig
 } from "remotion";
-import { ColorTransition } from "../..";
-import { f2s, frames } from "../../../../common";
+import { ColorTransition } from "../../index.jsx";
+import { f2s, frames } from "../../../../common/index.js";
 
 /**
  * @typedef {object} ColorTransitionsProps

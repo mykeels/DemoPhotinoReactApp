@@ -1,7 +1,7 @@
 import { Sequence, AbsoluteFill, useVideoConfig } from "remotion";
 
-import { Lifecycle, Pulse, SlideIn, SlideOut } from "../../../../animations";
-import { frames, starts } from "../../../../common/utils";
+import { Lifecycle, Pulse, SlideIn, SlideOut } from "../../../../animations/index.js";
+import { frames, starts } from "../../../../common/utils/index.js";
 import classNames from "classnames";
 
 /**

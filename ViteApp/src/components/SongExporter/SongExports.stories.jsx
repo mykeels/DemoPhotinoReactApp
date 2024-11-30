@@ -1,10 +1,10 @@
 import { QueryClient, QueryClientProvider } from "react-query";
 import { BrowserRouter } from "react-router-dom";
-import { sleep } from "../../common";
-import { Capabilities } from "./components";
-import { SongExporter } from "./SongExporter";
+import { sleep } from "../../common/index.js";
+import { Capabilities } from "./components/index.js";
+import { SongExporter } from "./SongExporter.jsx";
 
-import { SongExports } from "./SongExports";
+import { SongExports } from "./SongExports.jsx";
 
 export default {
   title: "components/SongExports",

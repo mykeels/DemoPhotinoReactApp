@@ -1,3 +1,3 @@
-export * from "./Modal";
-export * from "./Spinner";
-export * from "./Redirect";
+export * from "./Modal/index.jsx";
+export * from "./Spinner/index.jsx";
+export * from "./Redirect/index.jsx";

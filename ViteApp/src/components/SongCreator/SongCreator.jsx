@@ -1,14 +1,14 @@
 import "./SongCreator.css";
 
 import { useCallback, useEffect, useRef, useState } from "react";
-import { LyricsTabView } from "./components/LyricsTabView";
+import { LyricsTabView } from "./components/LyricsTabView/index.jsx";
 import keywordExtractor from "keyword-extractor";
-import { TimeKeeper } from "./components/TimeKeeper";
-import { ImageGallery } from "./components/ImageGallery";
+import { TimeKeeper } from "./components/TimeKeeper/index.jsx";
+import { ImageGallery } from "./components/ImageGallery/index.jsx";
 import classNames from "classnames";
-import { BackgroundSelect } from "./components/BackgroundSelect";
-import { ColorGallery } from "./components/ColorGallery";
-import { StillHighlightedVerseSubtitles } from "../SongPlayer";
+import { BackgroundSelect } from "./components/BackgroundSelect/index.jsx";
+import { ColorGallery } from "./components/ColorGallery/index.jsx";
+import { StillHighlightedVerseSubtitles } from "../SongPlayer/index.js";
 
 const apiRootURL = import.meta.env.REACT_APP_API_ROOT;
 

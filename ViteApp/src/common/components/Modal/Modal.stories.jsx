@@ -1,6 +1,6 @@
 import classNames from "classnames/dedupe";
 
-import { Modal } from "./";
+import { Modal } from "./index.jsx";
 
 export default {
   title: "common/Modal",

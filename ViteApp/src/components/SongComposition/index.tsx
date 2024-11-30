@@ -1,8 +1,8 @@
 import "../../index.css";
 
 import { Composition, registerRoot } from "remotion";
-import { frames } from "../../common";
-import { SongURLPlayer } from "./SongURLPlayer";
+import { frames } from "../../common/index.js";
+import { SongURLPlayer } from "./SongURLPlayer.jsx";
 
 type SongURLCompositionProps = {
   className?: any;

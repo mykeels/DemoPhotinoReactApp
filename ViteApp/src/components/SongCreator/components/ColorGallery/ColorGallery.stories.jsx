@@ -1,5 +1,5 @@
 
-import { ColorGallery } from ".";
+import { ColorGallery } from "./index.jsx";
 
 export default {
   title: "components/SongCreator/components/ColorGallery",

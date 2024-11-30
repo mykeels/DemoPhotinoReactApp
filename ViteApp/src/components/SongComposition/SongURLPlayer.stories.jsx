@@ -1,7 +1,7 @@
 import { Player } from "@remotion/player";
-import { frames } from "../../common/utils";
+import { frames } from "../../common/utils/index.js";
 
-import { SongURLPlayer } from "./SongURLPlayer";
+import { SongURLPlayer } from "./SongURLPlayer.jsx";
 
 export default {
   title: "components/SongURLPlayer",

@@ -1,11 +1,11 @@
 import { useNavigate } from "react-router-dom";
-import { SongUploader } from "./SongUploader";
+import { SongUploader } from "./SongUploader.jsx";
 
 /**
  * @typedef {object} SongUploaderScreenProps
  * @property {any} [className]
  * @property {(blobUrl: string) => any} onAudioFileReceived
- * @property {React.FC<import("./SongUploader").SongUploaderProps>} [SongUploader]
+ * @property {React.FC<import("./SongUploader.jsx").SongUploaderProps>} [SongUploader]
  */
 
 /**

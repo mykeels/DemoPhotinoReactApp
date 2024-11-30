@@ -1,8 +1,8 @@
 import { Player } from "@remotion/player";
 import { AbsoluteFill } from "remotion";
 
-import { Pulse } from "./";
-import { frames } from "../../common";
+import { Pulse } from "./index.jsx";
+import { frames } from "../../common/index.js";
 
 export default {
   title: "animations/Pulse",

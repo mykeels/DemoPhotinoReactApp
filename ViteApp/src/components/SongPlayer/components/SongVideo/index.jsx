@@ -1,6 +1,7 @@
+import React from "react";
 import { CenterFill, HighlightedVerseSubtitles, PhotoSlideshow } from "..";
 import { Audio } from "remotion";
-import { ColorTransitions } from "../../../../animations";
+import { ColorTransitions } from "../../../../animations/index.js";
 
 const apiRootURL = import.meta.env.REACT_APP_API_ROOT;
 

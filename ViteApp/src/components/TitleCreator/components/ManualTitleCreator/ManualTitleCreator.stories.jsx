@@ -1,5 +1,5 @@
 
-import { ManualTitleCreator } from "./";
+import { ManualTitleCreator } from "./index.jsx";
 
 export default {
   title: "components/TitleCreator/ManualTitleCreator",

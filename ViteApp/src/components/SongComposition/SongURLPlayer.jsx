@@ -1,7 +1,7 @@
 import { useState, useCallback, useEffect } from "react";
 import { continueRender, delayRender } from "remotion";
-import { SongVideo } from "../SongPlayer";
-import { CenterFill } from "../SongPlayer/components";
+import { SongVideo } from "../SongPlayer/index.js";
+import { CenterFill } from "../SongPlayer/components/index.js";
 
 /**
  * @typedef {object} SongURLPlayerProps

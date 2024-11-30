@@ -3,10 +3,10 @@ import "./SongPicker.css";
 import classNames from "classnames";
 import { useEffect } from "react";
 import { useMutation, useQuery } from "react-query";
-import { Spinner } from "../../common";
+import { Spinner } from "../../common/index.js";
 import { DateTime } from "luxon";
 import { Link } from "react-router-dom";
-import { deleteSong, getSongRecords } from "../../common/services";
+import { deleteSong, getSongRecords } from "../../common/services/index.js";
 
 /**
  * @typedef {object} SongPickerProps

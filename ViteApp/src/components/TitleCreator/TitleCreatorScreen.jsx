@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 
-import { getLyrics, getLyricsOptions } from "../../common/services";
-import { TitleCreator } from "./TitleCreator";
+import { getLyrics, getLyricsOptions } from "../../common/services/index.js";
+import { TitleCreator } from "./TitleCreator.jsx";
 
 /**
  * @typedef {object} TitleCreatorScreenProps

@@ -1,10 +1,10 @@
 import { useParams } from "react-router-dom";
 import { useMutation, useQuery } from "react-query";
 
-import { getSongById, saveSongFileContents } from "../../common/services";
-import { LyricsTabView } from "./components/LyricsTabView";
-import { SongCreator } from "./SongCreator";
-import { useCacheInvalidation } from "../../hooks";
+import { getSongById, saveSongFileContents } from "../../common/services/index.js";
+import { LyricsTabView } from "./components/LyricsTabView/index.jsx";
+import { SongCreator } from "./SongCreator.jsx";
+import { useCacheInvalidation } from "../../hooks/index.js";
 
 /**
  * @typedef {object} SongCreatorScreenProps

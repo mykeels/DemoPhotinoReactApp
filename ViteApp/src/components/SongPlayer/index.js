@@ -1,3 +1,3 @@
-export * from "./SongPlayerScreen";
-export * from "./SongPlayer";
-export * from "./components"
+export * from "./SongPlayerScreen.jsx";
+export * from "./SongPlayer.jsx";
+export * from "./components/index.js"

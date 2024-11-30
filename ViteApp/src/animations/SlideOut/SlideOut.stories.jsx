@@ -1,8 +1,8 @@
 import { AbsoluteFill } from "remotion";
 import { Player } from "@remotion/player";
 
-import { SlideOut } from "./index";
-import { frames } from "../../common";
+import { SlideOut } from "./index.jsx";
+import { frames } from "../../common/index.js";
 
 export default {
   title: "animations/SlideOut",

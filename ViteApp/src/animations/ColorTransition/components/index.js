@@ -1,1 +1,1 @@
-export * from "./ColorTransitions";
+export * from "./ColorTransitions/index.jsx";

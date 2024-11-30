@@ -1,8 +1,8 @@
 import { QueryClient, QueryClientProvider } from "react-query";
 import { BrowserRouter } from "react-router-dom";
 
-import { App } from "./App";
-import { SongPicker } from "./components";
+import { App } from "./App.jsx";
+import { SongPicker } from "./components/index.js";
 import sampleSong from "./common/data/sample-song.json";
 
 export default {

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useForm } from "react-hook-form";
-import { Spinner } from "../../../../common";
+import { Spinner } from "../../../../common/index.js";
 
 /**
  * @typedef {{ url: string }} YoutubeDownloaderSubmission
@@ -26,7 +26,7 @@ export const YoutubeDownloader = ({ className, getAudioUrl, onDownload }) => {
   const {
     handleSubmit,
     register,
-    errors: formErrors,
+    formState: { errors: formErrors },
     reset
   } = useForm({
     mode: "onChange",
@@ -53,7 +53,7 @@ export const YoutubeDownloader = ({ className, getAudioUrl, onDownload }) => {
               name="url"
               placeholder="https://www.youtube.com/watch?v=000"
               className="w-full text-xl px-4 py-2 text-purple-200"
-              ref={register({
+              {...register("url", {
                 required: "Please provide a valid Youtube URL"
               })}
             />

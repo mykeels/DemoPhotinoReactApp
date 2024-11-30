@@ -1,9 +1,9 @@
 import { Sequence, Img, useVideoConfig } from "remotion";
 
-import { Lifecycle, ZoomIn } from "../../../../animations";
-import { CenterFill } from "../CenterFill";
-import { f2s, frames } from "../../../../common/utils";
-import { FadeOut } from "../../../../animations/FadeOut";
+import { Lifecycle, ZoomIn } from "../../../../animations/index.js";
+import { CenterFill } from "../CenterFill/index.jsx";
+import { f2s, frames } from "../../../../common/utils/index.js";
+import { FadeOut } from "../../../../animations/FadeOut/index.jsx";
 
 /**
  * @typedef {object} PhotoSlideshowProps

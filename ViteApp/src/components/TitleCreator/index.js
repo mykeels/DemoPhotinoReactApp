@@ -1,2 +1,2 @@
-export * from "./TitleCreatorScreen";
-export * from "./TitleCreator";
+export * from "./TitleCreatorScreen.jsx";
+export * from "./TitleCreator.jsx";

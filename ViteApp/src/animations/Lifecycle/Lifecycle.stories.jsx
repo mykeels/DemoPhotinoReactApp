@@ -1,9 +1,9 @@
 import { Player } from "@remotion/player";
 import { AbsoluteFill } from "remotion";
 
-import { Lifecycle } from "./";
-import { SlideIn, SlideOut, Pulse } from "../";
-import { frames } from "../../common/utils";
+import { Lifecycle } from "./index.jsx";
+import { SlideIn, SlideOut, Pulse } from "../index.js";
+import { frames } from "../../common/utils/index.js";
 
 export default {
   title: "animations/Lifecycle",

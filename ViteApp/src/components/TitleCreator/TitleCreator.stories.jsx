@@ -1,7 +1,7 @@
 import { QueryClient, QueryClientProvider } from "react-query";
-import { sleep } from "../../common";
+import { sleep } from "../../common/index.js";
 
-import { TitleCreator } from "./";
+import { TitleCreator } from "./index.js";
 
 export default {
   title: "components/TitleCreator",

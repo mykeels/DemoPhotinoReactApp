@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { QueryClientProvider, QueryClient } from "react-query";
 
-import { SongUploader } from "./";
+import { SongUploader } from "./index.js";
 
 export default {
   title: "components/SongUploader",

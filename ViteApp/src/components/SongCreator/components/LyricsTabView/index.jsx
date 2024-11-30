@@ -4,8 +4,8 @@ import classNames from "classnames";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-import { SongLine } from "../SongLine";
-import { SaveButton } from "./components";
+import { SongLine } from "../SongLine/index.jsx";
+import { SaveButton } from "./components/index.js";
 
 /**
  * @param {object} props

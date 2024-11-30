@@ -1,2 +1,2 @@
-export * from "./NodeJSInstructions";
-export * from "./FfMpegInstructions";
+export * from "./NodeJSInstructions.jsx";
+export * from "./FfMpegInstructions.jsx";

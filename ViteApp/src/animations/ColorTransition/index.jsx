@@ -82,4 +82,4 @@ export const ColorTransition = ({ children, onChange, from, to }) => {
 
 ColorTransition.defaultProps = {};
 
-export * from "./components";
+export * from "./components/index.js";

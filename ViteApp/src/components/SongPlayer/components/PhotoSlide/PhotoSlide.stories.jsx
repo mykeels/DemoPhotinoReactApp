@@ -1,7 +1,7 @@
 import { Player } from "@remotion/player";
 
-import { PhotoSlide } from "./";
-import { frames } from "../../../../common/utils";
+import { PhotoSlide } from "./index.jsx";
+import { frames } from "../../../../common/utils/index.js";
 
 export default {
   title: "components/SongPlayer/components/PhotoSlide",

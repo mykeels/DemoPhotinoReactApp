@@ -1,8 +1,8 @@
 import { Player } from "@remotion/player";
 
-import { PhotoSlideshow } from "./index";
+import { PhotoSlideshow } from "./index.jsx";
 import sampleSong from "../../../../common/data/sample-song.json";
-import { frames } from "../../../../common/utils";
+import { frames } from "../../../../common/utils/index.js";
 
 export default {
   title: "components/SongPlayer/components/PhotoSlideshow",

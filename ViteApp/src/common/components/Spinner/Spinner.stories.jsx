@@ -1,5 +1,5 @@
 
-import { Spinner } from "./";
+import { Spinner } from "./index.jsx";
 
 export default {
   title: "common/Spinner",

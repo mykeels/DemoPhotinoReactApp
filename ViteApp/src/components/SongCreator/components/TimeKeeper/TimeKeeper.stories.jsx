@@ -1,5 +1,5 @@
 
-import { TimeKeeper } from "./";
+import { TimeKeeper } from "./index.jsx";
 
 export default {
   title: "components/SongCreator/components/TimeKeeper",

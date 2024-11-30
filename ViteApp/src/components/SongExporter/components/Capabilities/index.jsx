@@ -1,9 +1,9 @@
 import classNames from "classnames";
 import { useEffect } from "react";
 import { useQuery } from "react-query";
-import { Spinner } from "../../../../common";
-import { getSystemCapabilities } from "../../../../common/services";
-import { FfMpegInstructions, NodeJSInstructions } from "../Instructions";
+import { Spinner } from "../../../../common/index.js";
+import { getSystemCapabilities } from "../../../../common/services/index.js";
+import { FfMpegInstructions, NodeJSInstructions } from "../Instructions/index.js";
 
 /**
  * @typedef {object} CapabilitiesProps

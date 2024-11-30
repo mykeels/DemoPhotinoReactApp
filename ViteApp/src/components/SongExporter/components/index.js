@@ -1,2 +1,2 @@
-export * from "./Instructions";
-export * from "./Capabilities";
+export * from "./Instructions/index.js";
+export * from "./Capabilities/index.jsx";

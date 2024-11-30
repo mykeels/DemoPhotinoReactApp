@@ -3,10 +3,10 @@ import "./SongExporter.css";
 import { useState } from "react";
 import { useQuery } from "react-query";
 import { Link } from "react-router-dom";
-import { Capabilities } from "./components";
-import { Spinner } from "../../common";
-import { SongExporter } from "./SongExporter";
-import { getExports, getSongRecords } from "../../common/services";
+import { Capabilities } from "./components/index.js";
+import { Spinner } from "../../common/index.js";
+import { SongExporter } from "./SongExporter.jsx";
+import { getExports, getSongRecords } from "../../common/services/index.js";
 
 /**
  * @typedef {object} SongExportsProps

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { BrowserRouter } from "react-router-dom";
 
-import { LyricsTabView } from "./";
+import { LyricsTabView } from "./index.jsx";
 
 export default {
   title: "components/SongCreator/components/LyricsTabView",

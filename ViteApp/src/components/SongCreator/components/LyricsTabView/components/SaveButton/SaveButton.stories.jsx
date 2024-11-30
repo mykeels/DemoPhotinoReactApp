@@ -1,5 +1,5 @@
 
-import { SaveButton } from "./";
+import { SaveButton } from "./index.jsx";
 
 export default {
   title:

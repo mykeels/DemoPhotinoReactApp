@@ -1,7 +1,7 @@
 import { QueryClient, QueryClientProvider } from "react-query";
 import { BrowserRouter } from "react-router-dom";
 
-import { SongPicker } from "./";
+import { SongPicker } from "./index.jsx";
 
 export default {
   title: "components/SongPicker",

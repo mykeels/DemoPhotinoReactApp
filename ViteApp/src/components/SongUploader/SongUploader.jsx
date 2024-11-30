@@ -1,9 +1,9 @@
 import "./SongUploader.css";
 
-import { YoutubeDownloader } from "./components";
+import { YoutubeDownloader } from "./components/index.js";
 import { useQuery } from "react-query";
 import classNames from "classnames";
-import { getAudioUrl, getSystemCapabilities } from "../../common/services";
+import { getAudioUrl, getSystemCapabilities } from "../../common/services/index.js";
 
 /**
  * @param {HTMLInputElement} input

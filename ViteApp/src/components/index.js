@@ -1,7 +1,7 @@
-export * from "./SongCreator";
-export * from "./TitleCreator";
-export * from "./SongPlayer";
-export * from "./SongUploader";
-export * from "./SongPicker";
-export * from "./SavedFileUploader";
+export * from "./SongCreator/index.js";
+export * from "./TitleCreator/index.js";
+export * from "./SongPlayer/index.js";
+export * from "./SongUploader/index.js";
+export * from "./SongPicker/index.jsx";
+export * from "./SavedFileUploader/index.jsx";
 

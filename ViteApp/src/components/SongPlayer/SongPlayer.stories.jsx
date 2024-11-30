@@ -1,12 +1,12 @@
 
-import { SongPlayer } from "./";
+import { SongPlayer } from "./index.js";
 import sampleSong from "../../common/data/sample-song.json";
-import { SlidingSubtitles } from "./components/SlidingSubtitles";
-import { HighlightedVerseSubtitles } from "./components/HighlightedVerseSubtitles";
+import { SlidingSubtitles } from "./components/SlidingSubtitles/index.jsx";
+import { HighlightedVerseSubtitles } from "./components/HighlightedVerseSubtitles/index.jsx";
 import { AbsoluteFill } from "remotion";
 import classNames from "classnames";
-import { ColorTransitions } from "../../animations";
-import { CenterFill } from "./components";
+import { ColorTransitions } from "../../animations/index.js";
+import { CenterFill } from "./components/index.js";
 
 export default {
   title: "components/SongPlayer",

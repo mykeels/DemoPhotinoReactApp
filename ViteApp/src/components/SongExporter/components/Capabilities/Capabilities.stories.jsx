@@ -1,6 +1,6 @@
 import { QueryClient, QueryClientProvider } from "react-query";
 
-import { Capabilities } from ".";
+import { Capabilities } from "./index.jsx";
 
 export default {
   title: "components/SongExporter/Capabilities",
