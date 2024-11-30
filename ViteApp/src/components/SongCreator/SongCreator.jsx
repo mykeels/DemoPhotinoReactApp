@@ -354,7 +354,7 @@ async function getImages(lines, intervals = 5) {
   }
   return Promise.all(
     keywords.map((keyword) =>
-      fetch(`https://source.unsplash.com/random/1280x720/?${keyword}`).then(
+      fetch(`https://unsplash.it/1280/720/?${keyword}`).then(
         (res) => res.url
       )
     )
