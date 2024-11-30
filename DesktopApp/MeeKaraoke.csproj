@@ -31,8 +31,8 @@
 	</ItemGroup>
 
 	<PropertyGroup>
-		<UiRoot>..\App\</UiRoot>
-		<UiBuildOutput>build\</UiBuildOutput>
+		<UiRoot>..\ViteApp\</UiRoot>
+		<UiBuildOutput>dist\</UiBuildOutput>
 		<WwwRoot Condition=" '$(EmbedWwwRoot)' != 'true' ">wwwroot\</WwwRoot>
 		<WwwRoot Condition=" '$(EmbedWwwRoot)' == 'true' ">Resources\wwwroot\</WwwRoot>
 		<ApplicationIcon>Resources\favicon.ico</ApplicationIcon>
