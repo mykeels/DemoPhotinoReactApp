@@ -1,5 +1,7 @@
 const envConfig = {
-  REACT_APP_USE_HASH_ROUTER: "true"
+  REACT_APP_USE_HASH_ROUTER: "true",
+  REACT_APP_FRAMES_PER_SECOND: 60,
+  REACT_APP_PREVENT_AUTOPLAY: "false",
 };
 
 module.exports = {
@@ -32,6 +34,7 @@ module.exports = {
     const plugin = config.plugins.find(plugin => (plugin.definitions));
     Object.keys(envConfig).forEach(key => {
       (plugin.definitions || {})[`process.env.${key}`] = String(envConfig[key]);
+      (plugin.definitions || {})[`import.meta.env.${key}`] = String(envConfig[key]);
     });
     console.log(plugin.definitions);
 
